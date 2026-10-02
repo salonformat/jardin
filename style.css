@@ -122,3 +122,9 @@
 
 .atelier-page .atelier-artist>summary{display:grid;grid-template-columns:104px minmax(180px,.85fr) minmax(200px,1.1fr) 20px;align-items:center;gap:24px}.artist-ink{display:block;width:104px;height:104px;object-fit:contain;background:#faefd5}.atelier-page .atelier-artist>summary span:first-of-type{font-size:clamp(24px,2.6vw,36px);font-family:var(--serif);color:#f1c86c;min-width:0;width:auto;margin:0}.atelier-page .atelier-artist>summary span:last-of-type{font-family:var(--sans);font-size:15px;color:inherit;min-width:0;width:auto}.atelier-page .artist-reading .illustration-caption{font-size:11px;line-height:1.5;color:#dae3cc;margin:12px 0}.atelier-page .atelier-artist>summary:after{position:static}.atelier-page .atelier-artist{padding:12px 0}
 @media(max-width:700px){.atelier-page .atelier-artist>summary{grid-template-columns:82px minmax(0,1fr) 16px;gap:5px 14px;padding:0}.artist-ink{width:82px;height:82px;grid-row:1/3}.atelier-page .atelier-artist>summary span:first-of-type{font-size:23px;grid-column:2;align-self:end}.atelier-page .atelier-artist>summary span:last-of-type{font-size:12px;grid-column:2;align-self:start;margin:0}.atelier-page .atelier-artist>summary:after{grid-column:3;grid-row:1/3}.atelier-page .artist-reading{margin-top:20px}}
+
+/* The lettering is still while the garden slowly draws closer around it. */
+.cover-shell .garden-cover{transform-origin:50% 50%;animation:garden-breath 24s ease-in-out infinite alternate;will-change:transform}
+@keyframes garden-breath{from{transform:scale(1.015) translateY(0)}to{transform:scale(1.085) translateY(-.6%)}}
+@media(prefers-reduced-motion:reduce){.cover-shell .garden-cover{animation:none;transform:none}}
+@media(min-width:701px){.cover-shell .hero-copy{padding-top:65px;padding-bottom:65px}.cover-shell .hero h1{font-size:clamp(66px,7.6vw,108px)}}
