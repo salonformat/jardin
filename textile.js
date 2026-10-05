@@ -21,8 +21,8 @@ export async function downloadPattern(design,large=false){
  const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=large?'un-jardin-a-soi-tissu.png':'un-jardin-a-soi-motif.png';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),15000);
 }
 export class Textile{
- constructor(canvas,{design,paused=false,flat=false}={}){
- this.canvas=canvas;this.ctx=canvas.getContext('2d');this.design={...design};this.paused=paused;this.flat=flat;this.time=0;this.zoom=0;this.targetZoom=0;this.pointer=0;this.tile=makeTile(design);this.texture=document.createElement('canvas');this.texture.width=this.texture.height=1200;this.litTexture=document.createElement('canvas');this.litTexture.width=this.litTexture.height=1200;this.paintTexture();
+ constructor(canvas,{design,paused=false,flat=false,reveal=false}={}){
+ this.canvas=canvas;this.ctx=canvas.getContext('2d');this.design={...design};this.paused=paused;this.flat=flat;this.reveal=reveal;this.time=0;this.zoom=0;this.targetZoom=0;this.pointer=0;this.tile=makeTile(design);this.texture=document.createElement('canvas');this.texture.width=this.texture.height=1200;this.litTexture=document.createElement('canvas');this.litTexture.width=this.litTexture.height=1200;this.paintTexture();
  this.resize=()=>{const rect=canvas.getBoundingClientRect();this.w=rect.width;this.h=rect.height;const dpr=Math.min(devicePixelRatio||1,2);canvas.width=this.w*dpr;canvas.height=this.h*dpr;this.ctx.setTransform(dpr,0,0,dpr,0,0);this.draw();};this.observer=new ResizeObserver(this.resize);this.observer.observe(canvas);
  this.move=e=>{this.pointer=(e.clientX-canvas.getBoundingClientRect().left)/this.w-.5;};canvas.addEventListener('pointermove',this.move);
  this.tick=now=>{if(this.dead)return;const dt=Math.min((now-(this.last||now))/1000,.04);this.last=now;if(!document.hidden&&!this.paused){this.time+=dt;this.zoom+=(this.targetZoom-this.zoom)*dt*3;this.draw();}this.frame=requestAnimationFrame(this.tick);};this.frame=requestAnimationFrame(this.tick);
@@ -54,7 +54,8 @@ export class Textile{
  // The shadow anchors a visibly free edge; pattern and folds share the same mesh.
  ctx.save();ctx.filter='blur(22px)';ctx.fillStyle='#071b1940';ctx.beginPath();const first=grid[0][0];ctx.moveTo(first.x+15,first.y+38);for(let i=1;i<=N;i++)ctx.lineTo(grid[0][i].x+15,grid[0][i].y+38);for(let j=1;j<=N;j++)ctx.lineTo(grid[j][N].x+15,grid[j][N].y+38);for(let i=N-1;i>=0;i--)ctx.lineTo(grid[N][i].x+15,grid[N][i].y+38);for(let j=N-1;j>=0;j--)ctx.lineTo(grid[j][0].x+15,grid[j][0].y+38);ctx.fill();ctx.restore();
  for(let j=0;j<N;j++)for(let i=0;i<N;i++){
- const a=grid[j][i],b=grid[j][i+1],c=grid[j+1][i+1],d=grid[j+1][i],s=1200/N;
+ const unfolding=this.reveal&&!this.paused?Math.min(1,Math.max(0,(this.time-.7)/3.5)):1;const extent=.5+.5*(1-Math.pow(1-unfolding,3));
+ const a=grid[j][i],b=grid[j][i+1],c=grid[j+1][i+1],d=grid[j+1][i],s=1200*extent/N;
  this.triangle(a,b,c,{x:i*s,y:j*s},{x:(i+1)*s,y:j*s},{x:(i+1)*s,y:(j+1)*s});this.triangle(a,c,d,{x:i*s,y:j*s},{x:(i+1)*s,y:(j+1)*s},{x:i*s,y:(j+1)*s});
 
  }
