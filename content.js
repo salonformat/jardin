@@ -22,7 +22,7 @@ fr: {
 },
 de: {
   skip:'Zur Experience', home:'Zurück zum Garten', language:'Sprache wählen', soundOn:'Ton ausschalten', soundOff:'Ton einschalten', pause:'Animationen pausieren', play:'Animationen fortsetzen', sound:'Ton', motion:'Bewegung', on:'an', off:'aus',
-  title:['Ein Garten','für dich.'], intro:'Kann eine Blume verändern,\nwie wir die Welt sehen?', enter:'Den Garten betreten', hint:'Nimm dir Zeit. Der Garten folgt dir.', credit:'Eine Experience von Salon Format', chapter:['Der Garten','Die Begegnung'], prototype:'Erster Entwurf',
+  title:['Dein eigener','Garten.'], intro:'Kann eine Blume verändern,\nwie wir die Welt sehen?', enter:'Den Garten betreten', hint:'Nimm dir Zeit. Der Garten folgt dir.', credit:'Eine Experience von Salon Format', chapter:['Der Garten','Die Begegnung'], prototype:'Erster Entwurf',
   heading:['Alles beginnt','mit einer Blume.'], instruction:'Berühre die Blume. Lass sie aufblühen.', bloomed:'Eine Blume. So viele Möglichkeiten, sie zu sehen.', repeat:'Den Garten aufblühen lassen', single:'Zurück zu einer Blume', bloom:'Die Blume öffnen',
   invitation:'Kann dieselbe Blume ganz anders wirken?', prompt:'Verändere ihre Umgebung. Ihre Farbe bleibt gleich.', palette:'Hintergrund ändern', palettes:['Zartes Rosa','Tiefes Blau','Sonnengelb'], touch:'Berühre die Blume, um sie zu öffnen', drag:'Bewege den Regler und gib den Blumen Raum.', spacing:'Raum zum Wachsen', near:'Zusammen', far:'Mit Abstand',
   note:'Die Blume behält genau dieselbe Farbe. Nur der Hintergrund verändert sich.', discovery:'Schau, was sich verändert.', people:'Hinter den Farben', peopleHint:'Zwei Geschichten zum Entdecken.',
