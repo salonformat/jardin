@@ -1,8 +1,8 @@
 export const historyCopy = {
   "de": {
-    "intro": "Entdecke, wie Künstlerinnen Stoffe gestaltet haben – und probiere es selbst aus. Drucke Blumen, spiele mit Farben und nimm dein eigenes Muster mit.",
-    "meet": "Warum gerade Stoff?",
-    "meetLead": "Wir tragen Stoff und leben mit ihm. Künstlerinnen wie Sonia Delaunay bringen darauf Kunst in unseren Alltag.",
+    "intro": "Für Künstlerinnen wie Sonia Delaunay war Stoff ein Ort für künstlerische Experimente. Ihre Entwürfe wurden zu Kleidung und brachten Kunst in den Alltag. Entdecke, wie Farbe und Wiederholung einen Stoff verändern – und gestalte dein eigenes Muster.",
+    "meet": "Kunst wird Teil des Alltags.",
+    "meetLead": "Sonia Delaunay erprobte auf Stoff Farbkontraste, die sie auch in ihrer Malerei beschäftigten. Andere Gestalterinnen fanden eigene Wege zwischen Kunst und Handwerk.",
     "eras": [
       "1920 · Farblehre und Textil",
       "1920er · Moderne und Abstraktion",
@@ -27,13 +27,13 @@ export const historyCopy = {
     "studioTitle": "Jetzt bist du dran.",
     "ideas": [
       "Wie wirken Farben zusammen? Diese Frage aus Julies Farblehre von 1920 probierst du jetzt an deinem Stoff aus.",
-      "Sonia brachte in den 1920ern abstrakte Kunst in den Alltag. Verändere die Stofffarbe: Wie wirken dieselben Blumen auf einem anderen Hintergrund?",
+      "Sonia erforschte, wie Farben nebeneinander wirken. Ändere die Stofffarbe und beobachte deine Blumen: Dieselbe Form kann plötzlich ganz anders aussehen.",
       "Bei Céline steht das Drucken von Hand im Mittelpunkt. Versetze deine Motive: Wie entsteht aus einzelnen Abdrücken ein Rhythmus?",
       "Maijas Unikko von 1964 zeigt, wie stark eine vereinfachte Blume wirken kann. Verändere Form und Größe deiner eigenen Motive."
     ],
     "conclusions": [
       "Aus deinen Farben und Formen ist ein Stoffmuster geworden. Du hast Julies Frage nach dem Zusammenspiel der Farben selbst ausprobiert.",
-      "Dein Entwurf bringt Farbe auf Stoff. Bei Sonia hast du entdeckt, wie daraus Kunst für den Alltag wird.",
+      "Dein Entwurf wiederholt sich jetzt über den Stoff. Aus einzelnen Farb- und Formentscheidungen wird etwas, das einen ganzen Raum oder ein Kleidungsstück prägen könnte.",
       "Einzelne Motive werden zu einem Muster. Bei Céline hast du gesehen, wie viel Gestaltung in jedem Abdruck steckt.",
       "Deine Blumen sind zu einem Stoffmuster geworden. Maijas Arbeit zeigt, welche Kraft in einfachen Formen liegt."
     ],
@@ -76,7 +76,7 @@ export const historyCopy = {
         "Damit zeigt sie, dass ein Stoffmuster ein eigener künstlerischer Entwurf sein kann: Entscheidend sind die Farben, die Größe und der Umriss der Blumen. Die Motive hier sind keine Kopien von Unikko; du erprobst mit eigenen Formen dieselbe Frage nach Form und Größe."
       ]
     ],
-    "mediumNote": "Stoffdruck gibt es seit Jahrhunderten. Er gehört nicht zu einer einzigen Kunstrichtung. Hier lernst du, wie Frauen mit Farben, Formen und Stoff gearbeitet haben – und probierst selbst aus, wie daraus ein Muster entsteht.",
+    "mediumNote": "Stoff ist seit Jahrhunderten ein Material für Gestaltung. Bei Sonia Delaunay verbindet er die abstrakte Malerei mit Mode und Alltag. Ein Entwurf muss hier auch als wiederholtes Muster und auf bewegtem Stoff wirken. Weben, Sticken und Drucken sind dabei unterschiedliche Techniken.",
     "shortAccounts": [
       "Julie untersucht, wie Farben zusammenwirken. Ihr Farbkreis hilft, sie bewusst zu kombinieren – auch beim Entwerfen von Stoffen.",
       "Sonia bringt abstrakte Kunst auf Stoff und Kleidung. Sie zeigt, wie Farben sich gegenseitig verändern.",
@@ -86,9 +86,9 @@ export const historyCopy = {
     "subject": "Kunst auf Stoff"
   },
   "fr": {
-    "intro": "Découvrez comment des artistes ont créé des tissus, puis à vous de jouer. Imprimez des fleurs, explorez les couleurs et repartez avec votre propre motif.",
-    "meet": "Pourquoi le tissu ?",
-    "meetLead": "Nous portons du tissu et vivons avec lui. Des artistes comme Sonia Delaunay en font une place pour l’art au quotidien.",
+    "intro": "Pour des artistes comme Sonia Delaunay, le tissu était un terrain d’expérimentation. Leurs dessins devenaient des vêtements et faisaient entrer l’art dans le quotidien. Découvrez ce que la couleur et la répétition changent à un tissu, puis créez votre propre motif.",
+    "meet": "L’art entre dans le quotidien.",
+    "meetLead": "Sonia Delaunay explorait sur le tissu les contrastes de couleurs qui l’occupaient aussi en peinture. D’autres créatrices ont suivi leurs propres chemins entre art et savoir-faire.",
     "eras": [
       "1920 · Couleur et textile",
       "Années 1920 · Art moderne et abstraction",
@@ -113,13 +113,13 @@ export const historyCopy = {
     "studioTitle": "À vous de jouer.",
     "ideas": [
       "Comment les couleurs se répondent-elles ? Explorez sur votre tissu cette question au cœur du cercle de Julie, créé en 1920.",
-      "Dans les années 1920, Sonia fait entrer l’art abstrait dans le quotidien. Changez la couleur du tissu : que deviennent les mêmes fleurs sur un autre fond ?",
+      "Sonia explorait l’effet des couleurs côte à côte. Changez la couleur du tissu et regardez vos fleurs : la même forme peut sembler tout autre.",
       "Céline transmet l’impression à la main. Déplacez vos motifs : quel rythme naît de ces empreintes ?",
       "Unikko, créé par Maija en 1964, révèle la force d’une fleur simplifiée. Jouez avec la forme et la taille de vos propres motifs."
     ],
     "conclusions": [
       "Vos couleurs et vos formes composent un motif textile. Vous avez exploré la question de Julie : comment les couleurs se répondent-elles ?",
-      "Votre dessin fait vivre la couleur sur le tissu. Avec Sonia, vous avez découvert comment l’art entre dans le quotidien.",
+      "Votre dessin se répète maintenant sur le tissu. Vos choix de couleurs et de formes pourraient donner du caractère à toute une pièce ou à un vêtement.",
       "Des empreintes séparées composent un motif. Avec Céline, vous avez vu les choix qui se cachent dans chaque geste.",
       "Vos fleurs sont devenues un motif textile. Le travail de Maija montre la force des formes simples."
     ],
@@ -159,10 +159,10 @@ export const historyCopy = {
       [
         "Maija Isola travaille dans le design textile finlandais de l’après-guerre. En 1964, elle crée Unikko pour Marimekko. Ce motif fleuri devient l’un des plus connus de la maison.",
         "Elle dessine plus de 500 motifs pour Marimekko au cours de sa carrière. Avec Unikko, la fleur devient une grande forme simplifiée, plutôt qu’une représentation fidèle de la nature.",
-        "Son travail montre qu’un motif textile peut être une création à part entière : les couleurs, la taille et les contours des fleurs font toute la différence. Les motifs proposés ici ne copient pas Unikko ; ils permettent d’jouer avec les formes dans votre propre dessin."
+        "Son travail montre qu’un motif textile peut être une création à part entière : les couleurs, la taille et les contours des fleurs font toute la différence. Les motifs proposés ici ne copient pas Unikko ; ils permettent de jouer avec les formes dans votre propre dessin."
       ]
     ],
-    "mediumNote": "On imprime le tissu depuis des siècles. Cette technique ne se limite pas à un seul mouvement artistique. Ici, vous découvrez comment des femmes ont travaillé la couleur, la forme et le tissu, puis vous créez votre propre motif.",
+    "mediumNote": "Le tissu est un support de création depuis des siècles. Chez Sonia Delaunay, il relie peinture abstraite, mode et vie quotidienne. Le dessin doit aussi fonctionner lorsqu’il se répète et que le tissu bouge. Tissage, broderie et impression sont des techniques différentes.",
     "shortAccounts": [
       "Julie explore les relations entre les couleurs. Son cercle aide à les associer, notamment pour dessiner des tissus.",
       "Sonia fait passer l’art abstrait sur les tissus et les vêtements. Elle montre comment les couleurs se transforment les unes les autres.",
@@ -172,9 +172,9 @@ export const historyCopy = {
     "subject": "L’art sur le tissu"
   },
   "en": {
-    "intro": "Discover how artists designed fabrics, then try it yourself. Print flowers, play with colour and take home a pattern of your own.",
-    "meet": "Why fabric?",
-    "meetLead": "We wear fabric and live with it. Artists such as Sonia Delaunay use it to bring art into everyday life.",
+    "intro": "For artists such as Sonia Delaunay, fabric was a place to experiment. Their designs became clothing and brought art into everyday life. Discover how colour and repetition change a fabric, then create a pattern of your own.",
+    "meet": "Art becomes part of everyday life.",
+    "meetLead": "Sonia Delaunay explored colour contrasts on fabric as she did in her paintings. Other designers found their own ways of working between art and craft.",
     "eras": [
       "1920 · Colour theory and textiles",
       "1920s · Modern art and abstraction",
@@ -199,13 +199,13 @@ export const historyCopy = {
     "studioTitle": "Now it’s your turn.",
     "ideas": [
       "How do colours work together? Explore this question from Julie’s 1920 colour circle on your own fabric.",
-      "In the 1920s, Sonia brings abstract art into everyday life. Change the fabric colour: how do the same flowers look against a different background?",
+      "Sonia explored how colours work side by side. Change the fabric colour and look at your flowers: the same shape can suddenly feel quite different.",
       "Céline teaches printing by hand. Move your motifs: what rhythm grows from these individual impressions?",
       "Maija’s Unikko from 1964 shows the power of a simplified flower. Play with the shape and size of your own motifs."
     ],
     "conclusions": [
       "Your colours and shapes have become a fabric pattern. You have explored Julie’s question: how do colours work together?",
-      "Your design brings colour to fabric. With Sonia, you discovered how art can become part of everyday life.",
+      "Your design now repeats across the fabric. Your choices of colour and shape could give character to a whole room or a piece of clothing.",
       "Individual impressions have become a pattern. With Céline, you saw the design choices behind each printing gesture.",
       "Your flowers have become a fabric pattern. Maija’s work shows the power of simple shapes."
     ],
@@ -248,7 +248,7 @@ export const historyCopy = {
         "Her work shows that a fabric pattern can be an artwork in its own right: the colours, size and outline of the flowers make the difference. The motifs here do not copy Unikko; they let you try this approach with shapes of your own."
       ]
     ],
-    "mediumNote": "People have printed fabric for centuries. The technique belongs to many traditions, rather than one art movement. Here, you discover how women worked with colour, shape and fabric, then try making a pattern yourself.",
+    "mediumNote": "Fabric has been a material for design for centuries. For Sonia Delaunay, it connects abstract painting with fashion and everyday life. A design also has to work when it repeats and the fabric moves. Weaving, embroidery and printing are different techniques.",
     "shortAccounts": [
       "Julie explores how colours work together. Her colour circle helps people combine them, including when designing fabrics.",
       "Sonia brings abstract art to fabric and clothing. She shows how colours change each other.",
