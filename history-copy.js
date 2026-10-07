@@ -1,8 +1,8 @@
 export const historyCopy = {
   "de": {
     "intro": "Wie wird Kunst zu einem Stoff, den wir tragen? Lerne die Künstlerinnen und Gestalterinnen Sonia Delaunay, Maija Isola, Julie Beaudeneau und Céline Lachkar kennen. Entdecke ihre Arbeit mit Farbe, Form und Textildruck – und gestalte dein eigenes Muster.",
-    "meet": "Kunst muss nicht an der Wand bleiben.",
-    "meetLead": "Farblehre um 1920, abstrakte Kunst, finnisches Design und Handwerk heute: vier Wege zum Stoff.",
+    "meet": "Warum gerade Stoff?",
+    "meetLead": "Stoff berührt uns, bewegt sich mit uns und prägt unsere Räume. Bedruckt wird er seit Jahrhunderten. Künstlerinnen der Moderne wie Sonia Delaunay nutzen ihn, um abstrakte Kunst in den Alltag zu bringen: zum Tragen und Benutzen.",
     "eras": [
       "1920 · Farblehre und Textil",
       "1920er · Moderne und Abstraktion",
@@ -22,8 +22,8 @@ export const historyCopy = {
       "1964 entwirft Maija Isola Unikko für Marimekko. Aus einer Blume macht sie eine große, vereinfachte Form. Im finnischen Textildesign wird daraus ein markantes Alltagsmotiv. Hier zählt nicht botanische Genauigkeit, sondern die Kraft von Form und Farbe."
     ],
     "printTitle": "Vom Kunstentwurf auf den Stoff.",
-    "printLead": "Stoffdruck bringt gezeichnete Motive auf Dinge, die wir tragen und benutzen. Hier probierst du ein Verfahren aus: Farbe auf den erhabenen Druckstock geben, dann auf den Stoff drücken.",
-    "repeat": "Aus dem leeren Stoff ist deine Gestaltungsfläche geworden. Wie haben Künstlerinnen mit Farbe und Form gearbeitet? Entdecke ihre Ansätze, bevor du weitergestaltest.",
+    "printLead": "Ein Bild kann an der Wand hängen. Ein bedruckter Stoff wird getragen, gefaltet und bewegt. Beginne mit einem Abdruck: Auf das erhabene Motiv des Druckstocks kommt Farbe, dann wird es auf den Stoff gedrückt.",
+    "repeat": "Deine Blume ist jetzt auf dem Stoff. Aus einem Entwurf kann etwas werden, das uns täglich begleitet. Warum reizte das Künstlerinnen?",
     "studioTitle": "Eine künstlerische Idee. Dein Entwurf.",
     "ideas": [
       "Wie wirken Farben zusammen? Diese Frage aus Julies Farblehre von 1920 probierst du jetzt an deinem Stoff aus.",
@@ -75,12 +75,13 @@ export const historyCopy = {
         "Sie gestaltet im Laufe ihrer Arbeit für Marimekko mehr als 500 Muster. Bei Unikko übersetzt sie die Blume in eine große, vereinfachte Form, statt sie naturgetreu abzubilden.",
         "Damit zeigt sie, wie eigenständig ein Stoffmuster sein kann: Farbe, Maßstab und Silhouette tragen den Entwurf. Die Motive hier sind keine Kopien von Unikko; du erprobst mit eigenen Formen eine verwandte gestalterische Frage."
       ]
-    ]
+    ],
+    "mediumNote": "Stoffdruck ist eine Technik mit langer Geschichte, keine einzelne Kunstrichtung. In dieser Experience verbinden sich Farblehre, moderne Kunst, Textildesign und heutiges Handwerk. Du erprobst, wie aus Farbe, Form und Wiederholung ein Entwurf für den Alltag wird."
   },
   "fr": {
     "intro": "Comment l’art devient-il un tissu que l’on porte ? Rencontrez les artistes et créatrices Sonia Delaunay, Maija Isola, Julie Beaudeneau et Céline Lachkar. Explorez leur travail autour de la couleur, de la forme et de l’impression textile, puis créez votre propre motif.",
-    "meet": "L’art ne s’arrête pas au tableau.",
-    "meetLead": "La couleur vers 1920, l’art abstrait, le design finlandais et l’artisanat d’aujourd’hui : quatre chemins vers le tissu.",
+    "meet": "Pourquoi le tissu ?",
+    "meetLead": "Le tissu nous touche, bouge avec nous et habite nos intérieurs. On l’imprime depuis des siècles. Des artistes modernes comme Sonia Delaunay l’utilisent pour faire entrer l’abstraction dans la vie quotidienne, à travers ce que l’on porte et ce dont on se sert.",
     "eras": [
       "1920 · Couleur et textile",
       "Années 1920 · Art moderne et abstraction",
@@ -100,8 +101,8 @@ export const historyCopy = {
       "En 1964, Maija Isola crée Unikko pour Marimekko. Elle transforme une fleur en une grande forme simplifiée. Dans le design textile finlandais, celle-ci devient un motif du quotidien. La force des formes et des couleurs compte plus que la précision botanique."
     ],
     "printTitle": "Du dessin d’artiste au tissu.",
-    "printLead": "L’impression textile porte les motifs sur ce que l’on utilise et ce que l’on porte. Essayez ici une technique : appliquer la couleur sur une planche en relief, puis la presser sur le tissu.",
-    "repeat": "Le tissu vierge devient votre espace de création. Comment les artistes ont-elles travaillé la couleur et la forme ? Découvrez leurs approches avant de continuer.",
+    "printLead": "Un tableau peut rester au mur. Un tissu imprimé se porte, se plie et bouge. Commencez par une empreinte : on applique la couleur sur le motif en relief de la planche, puis on le presse sur le tissu.",
+    "repeat": "Votre fleur est maintenant sur le tissu. Un dessin peut devenir un objet qui nous accompagne chaque jour. Pourquoi cette possibilité attire-t-elle les artistes ?",
     "studioTitle": "Une idée artistique. Votre création.",
     "ideas": [
       "Comment les couleurs se répondent-elles ? Explorez sur votre tissu cette question au cœur du cercle de Julie, créé en 1920.",
@@ -153,12 +154,13 @@ export const historyCopy = {
         "Elle dessine plus de 500 motifs pour Marimekko au cours de sa carrière. Avec Unikko, la fleur devient une grande forme simplifiée, plutôt qu’une représentation fidèle de la nature.",
         "Son travail montre l’autonomie du dessin textile : couleur, échelle et silhouette portent la création. Les motifs proposés ici ne copient pas Unikko ; ils permettent d’explorer une question de forme avec votre propre composition."
       ]
-    ]
+    ],
+    "mediumNote": "L’impression textile est une technique ancienne, pas un mouvement artistique unique. Ce parcours relie théorie des couleurs, art moderne, design textile et artisanat actuel. Vous explorez comment couleur, forme et répétition composent un dessin pour le quotidien."
   },
   "en": {
     "intro": "How does art become fabric we can wear? Meet the artists and designers Sonia Delaunay, Maija Isola, Julie Beaudeneau and Céline Lachkar. Explore their work with colour, shape and textile printing, then create your own pattern.",
-    "meet": "Art doesn’t have to stay on the wall.",
-    "meetLead": "Colour theory around 1920, abstract art, Finnish design and craft today: four paths to fabric.",
+    "meet": "Why fabric?",
+    "meetLead": "Fabric touches us, moves with us and shapes our rooms. It has been printed for centuries. Modern artists such as Sonia Delaunay use it to bring abstraction into everyday life, through things we wear and use.",
     "eras": [
       "1920 · Colour theory and textiles",
       "1920s · Modern art and abstraction",
@@ -178,8 +180,8 @@ export const historyCopy = {
       "In 1964, Maija Isola creates Unikko for Marimekko. She turns a flower into a large, simplified shape. Within Finnish textile design, it becomes a striking everyday motif. The power of shape and colour matters more than botanical accuracy."
     ],
     "printTitle": "From an artist’s design to fabric.",
-    "printLead": "Textile printing brings drawn motifs to things we wear and use. Try one technique here: apply colour to the raised motif on a block, then press it onto fabric.",
-    "repeat": "The blank fabric has become your space to create. How have artists worked with colour and shape? Explore their approaches before continuing.",
+    "printLead": "A painting can stay on a wall. Printed fabric is worn, folded and moved. Start with one impression: colour goes onto the raised motif on a printing block, which is then pressed onto fabric.",
+    "repeat": "Your flower is now on the fabric. A drawing can become something that accompanies us every day. Why did this possibility appeal to artists?",
     "studioTitle": "An artistic idea. Your own design.",
     "ideas": [
       "How do colours work together? Explore this question from Julie’s 1920 colour circle on your own fabric.",
@@ -231,6 +233,7 @@ export const historyCopy = {
         "Over her career, she creates more than 500 patterns for Marimekko. In Unikko, she turns a flower into a large, simplified shape rather than a faithful depiction of nature.",
         "Her work shows the independence of textile design: colour, scale and silhouette carry the composition. The motifs here do not copy Unikko; they let you explore a related design question through shapes of your own."
       ]
-    ]
+    ],
+    "mediumNote": "Textile printing is a technique with a long history, not a single artistic movement. This journey connects colour theory, modern art, textile design and craft today. You explore how colour, shape and repetition become a design for everyday life."
   }
 };

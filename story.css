@@ -5,3 +5,5 @@
 .women-strip a span{display:block;font-size:11px;line-height:1.5;margin-top:5px}.take-heading>p{max-width:720px;margin:16px auto 0;line-height:1.6;font-size:18px}.story-role{color:#f1c86c}.story-body{font-size:19px}.print-story-heading p{max-width:670px}@media(max-width:700px){.story-body{font-size:17px}.take-heading>p{font-size:16px}.women-strip a span{font-size:10px}}
 
 .artist-essay{max-width:560px;padding:6px 0 14px}.artist-essay section{margin-top:20px}.artist-essay h3{font-size:23px;color:#f1c86c}.artist-essay p{font-size:16px;line-height:1.7;margin-top:9px}.reading-source-label{margin-top:24px!important;font-weight:600}@media(max-width:700px){.artist-essay h3{font-size:22px}.artist-essay p{font-size:15px}}
+
+.story-intro>p{max-width:750px;margin:17px auto 0;line-height:1.65}.print-story-heading p{font-size:18px}@media(max-width:700px){.story-intro>p{font-size:15px}.print-story-heading p{font-size:16px}}
