@@ -1,5 +1,5 @@
-import {lookingMarkup,bindLooking} from './looking.js?v=fresh-cloth-fit-screen';
-import {printingMarkup,bindPrinting} from './printing.js?v=fresh-cloth-fit-screen';
+import {lookingMarkup,bindLooking} from './looking.js?v=garthwaite-context';
+import {printingMarkup,bindPrinting} from './printing.js?v=garthwaite-context';
 import {story,storyMarkup,bindStory} from './story.js?v=honest-ending';
 import {experience} from './experience.js?v=fresh-cloth-fit-screen';
 import {cleanMotifs} from './motif-model.js?v=fresh-cloth-fit-screen';
