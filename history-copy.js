@@ -23,7 +23,7 @@ export const historyCopy = {
     ],
     "printTitle": "Vom Kunstentwurf auf den Stoff.",
     "printLead": "Stoffdruck bringt gezeichnete Motive auf Dinge, die wir tragen und benutzen. Hier probierst du ein Verfahren aus: Farbe auf den erhabenen Druckstock geben, dann auf den Stoff drücken.",
-    "repeat": "Aus einem Motiv wird durch Wiederholung eine Fläche. Farbe, Form und Rhythmus gestalten den Stoff – jetzt probierst du es selbst aus.",
+    "repeat": "Aus dem leeren Stoff ist deine Gestaltungsfläche geworden. Wie haben Künstlerinnen mit Farbe und Form gearbeitet? Entdecke ihre Ansätze, bevor du weitergestaltest.",
     "studioTitle": "Eine künstlerische Idee. Dein Entwurf.",
     "ideas": [
       "Wie wirken Farben zusammen? Diese Frage aus Julies Farblehre von 1920 probierst du jetzt an deinem Stoff aus.",
@@ -36,7 +36,18 @@ export const historyCopy = {
       "Du hast Farbe in einen Alltagsentwurf übersetzt. Diese Verbindung von Kunst und Stoff prägte schon Sonia Delaunays Arbeit in den 1920ern.",
       "Du hast einzelne Motive zu einem Rhythmus verbunden. Genau dieses Zusammenspiel von Abdruck und Wiederholung macht den Druck von Hand aus.",
       "Du hast mit vereinfachten Blumenformen gestaltet. Maija Isolas Unikko von 1964 zeigt, wie aus einer solchen Idee ein prägnanter Textilentwurf werden kann."
-    ]
+    ],
+    "chapters": [
+      "Drucken",
+      "Begegnen",
+      "Gestalten",
+      "Mitnehmen"
+    ],
+    "start": "Die erste Blume drucken",
+    "next": "Meinen Stoff weitergestalten",
+    "make": "Die Künstlerinnen kennenlernen",
+    "printed": "Dein erster Abdruck.",
+    "hint": "Das ist dein Musterquadrat. Klicke eine Blume an, ändere ihre Farbe oder verschiebe sie. Erst am Ende wird dein Entwurf über den ganzen Stoff wiederholt."
   },
   "fr": {
     "intro": "Comment l’art devient-il un tissu que l’on porte ? Rencontrez Sonia Delaunay, Maija Isola, Julie Beaudeneau et Céline Lachkar. Explorez leur travail autour de la couleur, de la forme et de l’impression textile, puis créez votre propre motif.",
@@ -62,7 +73,7 @@ export const historyCopy = {
     ],
     "printTitle": "Du dessin d’artiste au tissu.",
     "printLead": "L’impression textile porte les motifs sur ce que l’on utilise et ce que l’on porte. Essayez ici une technique : appliquer la couleur sur une planche en relief, puis la presser sur le tissu.",
-    "repeat": "En se répétant, un motif devient une surface. Couleur, forme et rythme composent le tissu. À vous d’essayer.",
+    "repeat": "Le tissu vierge devient votre espace de création. Comment les artistes ont-elles travaillé la couleur et la forme ? Découvrez leurs approches avant de continuer.",
     "studioTitle": "Une idée artistique. Votre création.",
     "ideas": [
       "Comment les couleurs se répondent-elles ? Explorez sur votre tissu cette question au cœur du cercle de Julie, créé en 1920.",
@@ -75,7 +86,18 @@ export const historyCopy = {
       "Vous avez fait de la couleur un dessin pour le quotidien. Ce lien entre art et tissu traverse déjà le travail de Sonia Delaunay dans les années 1920.",
       "Vous avez créé un rythme avec des motifs distincts. Ce dialogue entre empreinte et répétition est au cœur de l’impression à la main.",
       "Vous avez composé avec des fleurs simplifiées. Unikko, créé par Maija Isola en 1964, montre comment cette idée peut donner naissance à un motif textile marquant."
-    ]
+    ],
+    "chapters": [
+      "Imprimer",
+      "Rencontrer",
+      "Créer",
+      "Emporter"
+    ],
+    "start": "Imprimer la première fleur",
+    "next": "Continuer à créer mon tissu",
+    "make": "Rencontrer les créatrices",
+    "printed": "Votre première empreinte.",
+    "hint": "Voici votre carré de motifs. Cliquez sur une fleur pour changer sa couleur ou la déplacer. À la fin, votre composition sera répétée sur tout le tissu."
   },
   "en": {
     "intro": "How does art become fabric we can wear? Meet Sonia Delaunay, Maija Isola, Julie Beaudeneau and Céline Lachkar. Explore their work with colour, shape and textile printing, then create your own pattern.",
@@ -101,7 +123,7 @@ export const historyCopy = {
     ],
     "printTitle": "From an artist’s design to fabric.",
     "printLead": "Textile printing brings drawn motifs to things we wear and use. Try one technique here: apply colour to the raised motif on a block, then press it onto fabric.",
-    "repeat": "Repeating a motif creates a patterned surface. Colour, shape and rhythm compose the fabric. Now try it yourself.",
+    "repeat": "The blank fabric has become your space to create. How have artists worked with colour and shape? Explore their approaches before continuing.",
     "studioTitle": "An artistic idea. Your own design.",
     "ideas": [
       "How do colours work together? Explore this question from Julie’s 1920 colour circle on your own fabric.",
@@ -114,6 +136,17 @@ export const historyCopy = {
       "You have turned colour into an everyday design. This connection between art and fabric was already central to Sonia Delaunay’s work in the 1920s.",
       "You have brought individual motifs into a rhythm. This relationship between impression and repetition is at the heart of printing by hand.",
       "You have composed with simplified flowers. Maija Isola’s Unikko from 1964 shows how this idea can become a distinctive textile design."
-    ]
+    ],
+    "chapters": [
+      "Print",
+      "Meet",
+      "Create",
+      "Take home"
+    ],
+    "start": "Print the first flower",
+    "next": "Continue designing my fabric",
+    "make": "Meet the creators",
+    "printed": "Your first impression.",
+    "hint": "This is your pattern square. Click a flower to change its colour or move it. At the end, your composition will repeat across the whole fabric."
   }
 };
