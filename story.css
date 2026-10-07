@@ -43,3 +43,5 @@
 
 .studio-memory{font-size:13px;margin-top:15px;max-width:630px}.studio-memory summary{cursor:pointer;padding:8px 0}.studio-memory p{font-size:15px;line-height:1.6;margin-top:8px}
 @media(max-width:700px){.looking-copy{display:contents}.looking-copy h1{order:0}.looking-lead{order:1;margin-top:0}.looking-work{order:2}.looking-question{order:3;margin-top:0}#look-closer{order:4;justify-self:start;padding-top:0}.looking-copy #looking-discovery{order:5;margin-top:0}.looking-copy .story-source{order:6;margin:0}.looking-copy .story-primary{order:7}.looking-story{gap:18px}}
+
+.resume-design{display:block;width:fit-content;max-width:100%;margin:18px auto 0;font-size:13px;color:#faefd5;text-underline-offset:4px}
