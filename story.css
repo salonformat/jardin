@@ -45,3 +45,18 @@
 @media(max-width:700px){.looking-copy{display:contents}.looking-copy h1{order:0}.looking-lead{order:1;margin-top:0}.looking-work{order:2}.looking-question{order:3;margin-top:0}#look-closer{order:4;justify-self:start;padding-top:0}.looking-copy #looking-discovery{order:5;margin-top:0}.looking-copy .story-source{order:6;margin:0}.looking-copy .story-primary{order:7}.looking-story{gap:18px}}
 
 .resume-design{display:block;width:fit-content;max-width:100%;margin:18px auto 0;font-size:13px;color:#faefd5;text-underline-offset:4px}
+
+/* Keep the first action inside laptop viewports without hiding any content. */
+@media(min-width:801px){
+ .cover-shell{display:flex;flex-direction:column;min-height:100svh}
+ .cover-shell .masthead{height:72px;flex:0 0 72px}
+ .cover-shell .hero{flex:1;min-height:0}
+ .cover-shell .hero-copy{width:min(660px,70vw);max-width:660px;padding:18px 20px}
+ .cover-shell .hero h1{font-size:clamp(48px,9svh,90px);line-height:1.04}
+ .cover-shell .hero-subject{font-size:24px;margin-top:16px}
+ .cover-shell .hero-intro{font-size:17px;line-height:1.45;max-width:480px;margin:12px auto 16px}
+ .cover-shell .hero-artists{font-size:12px;line-height:1.6;margin-bottom:16px}
+ .cover-shell .enter{min-height:50px;padding:13px 22px}
+ .cover-shell .print-intro{margin-top:12px}
+ .cover-shell .story-footer{min-height:46px;padding-top:12px;padding-bottom:12px}
+}

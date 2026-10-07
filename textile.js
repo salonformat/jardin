@@ -1,5 +1,5 @@
-import {drawMotif,painterFor} from './motif-model.js';
-import {Garden,INKS} from './garden.js';
+import {drawMotif,painterFor} from './motif-model.js?v=fresh-cloth-fit-screen';
+import {Garden,INKS} from './garden.js?v=fresh-cloth-fit-screen';
 export const GROUNDS=['#f6f1e5','#efc5ca','#efd37f'];
 // A single seamless tile is shared by the flying cloth, experiments and downloads.
 export function makeTile(design,size=600){
@@ -7,11 +7,6 @@ export function makeTile(design,size=600){
  ctx.fillStyle=GROUNDS[design.ground||0];ctx.fillRect(0,0,size,size);
  const painter=painterFor(ctx);
  if(Array.isArray(design.motifs)){for(const m of design.motifs)for(let y=-1;y<=1;y++)for(let x=-1;x<=1;x++)drawMotif(painter,m,size,(m.x+x)*size,(m.y+y)*size);return canvas;}
- const n=design.scale?2:4,step=size/n,r=step*.25;
- for(let row=-1;row<=n;row++)for(let col=-1;col<=n;col++){
- const x=col*step+step*.5+(design.layout&&Math.abs(row)%2?step*.5:0),y=row*step+step*.3;
- painter.textileMotif(x,y,r,INKS[design.palette]);
- }
  return canvas;
 }
 export async function downloadPattern(design,large=false){

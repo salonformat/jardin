@@ -1,4 +1,4 @@
-import {Garden,INKS} from './garden.js';
+import {Garden,INKS} from './garden.js?v=fresh-cloth-fit-screen';
 const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
 export function cleanMotifs(value){return Array.isArray(value)?value.slice(0,40).filter(m=>m&&['x','y','size','angle','ink','kind'].every(k=>Number.isFinite(m[k]))).map(m=>({x:((m.x%1)+1)%1,y:((m.y%1)+1)%1,size:clamp(m.size,.025,.2),angle:clamp(m.angle,-Math.PI,Math.PI),ink:clamp(Math.round(m.ink),0,7),kind:clamp(Math.round(m.kind),0,3)})):null;}
 export function initialMotifs(d){const n=d.scale?2:4;return Array.from({length:n*n},(_,i)=>{const row=Math.floor(i/n),col=i%n;return {x:((col+.5+(d.layout&&row%2?.5:0))/n)%1,y:(row+.3)/n,size:.25/n,angle:0,ink:d.palette,kind:0};});}
