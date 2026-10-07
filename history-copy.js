@@ -47,7 +47,35 @@ export const historyCopy = {
     "next": "Meinen Stoff weitergestalten",
     "make": "Die Künstlerinnen kennenlernen",
     "printed": "Dein erster Abdruck.",
-    "hint": "Das ist dein Musterquadrat. Klicke eine Blume an, ändere ihre Farbe oder verschiebe sie. Erst am Ende wird dein Entwurf über den ganzen Stoff wiederholt."
+    "hint": "Das ist dein Musterquadrat. Klicke eine Blume an, ändere ihre Farbe oder verschiebe sie. Erst am Ende wird dein Entwurf über den ganzen Stoff wiederholt.",
+    "readArtist": "Mehr über",
+    "readingHeads": [
+      "Zeit und Umfeld",
+      "Ihre Arbeit",
+      "Was daran wichtig ist"
+    ],
+    "artistDetails": [
+      [
+        "1920 treffen im Textilentwurf künstlerische Entscheidungen auf technische Fragen der Farbherstellung. Julie Beaudeneaus „Cercle chromatique esthétique“ wird in diesem Jahr mit dem Schaeffer-Preis ausgezeichnet.",
+        "Ihr Beitrag ist ein Werkzeug für den Umgang mit Farbe. Der Farbkreis richtet den Blick auf Beziehungen: Eine Farbe wird nicht nur einzeln ausgewählt, sondern im Zusammenspiel mit anderen.",
+        "Der dokumentierte Preis macht ihren Beitrag sichtbar. Sie steht hier für die Farblehre als Grundlage der Gestaltung – nicht für ein bestimmtes Blumenmuster oder eine eigene Kunstrichtung."
+      ],
+      [
+        "Sonia Delaunay gehört zur künstlerischen Moderne. In den 1920er-Jahren verbindet sie abstrakte Malerei mit Mode und Textilentwurf. 1924 zeigt sie bedruckte Stoffe im Pariser Salon d’automne.",
+        "In ihren „Tissus simultanés“ arbeitet sie mit Farbkontrasten und abstrakten Formen. Mit ihrem Atelier und der Maison Sonia Delaunay überträgt sie diese künstlerische Forschung auf Kleidung und Stoffe.",
+        "Ihre Arbeit überschreitet die Grenze zwischen Bild und Gebrauchsgegenstand. Abstrakte Kunst kann getragen werden und sich mit dem Körper bewegen. Für deinen Entwurf heißt das: Motiv und Hintergrund wirken immer zusammen."
+      ],
+      [
+        "Céline Lachkar steht in dieser Experience für die heutige Weitergabe eines älteren Handwerks. Ihre in Indien erlernte Blockprint-Praxis ist keine historische Kunstrichtung, sondern eine lebendige Drucktechnik.",
+        "In Workshops vermittelt sie das Drucken mit der Hand, auch mit historischen Druckstöcken. Ein Motiv wird eingefärbt, angedrückt und erneut angesetzt. So entsteht aus einzelnen Handlungen eine bedruckte Fläche.",
+        "Ihr Beitrag liegt hier in der Vermittlung: Sie macht die Arbeit hinter einem Muster erfahrbar. Wo du ein Motiv platzierst und wie du es wiederholst, ist ebenso eine Gestaltungsentscheidung wie seine Farbe."
+      ],
+      [
+        "Maija Isola arbeitet im finnischen Textildesign der Nachkriegszeit. 1964 entwirft sie für Marimekko das Blumenmuster Unikko. Es wird zu einem der bekanntesten Motive des Unternehmens.",
+        "Sie gestaltet im Laufe ihrer Arbeit für Marimekko mehr als 500 Muster. Bei Unikko übersetzt sie die Blume in eine große, vereinfachte Form, statt sie naturgetreu abzubilden.",
+        "Damit zeigt sie, wie eigenständig ein Stoffmuster sein kann: Farbe, Maßstab und Silhouette tragen den Entwurf. Die Motive hier sind keine Kopien von Unikko; du erprobst mit eigenen Formen eine verwandte gestalterische Frage."
+      ]
+    ]
   },
   "fr": {
     "intro": "Comment l’art devient-il un tissu que l’on porte ? Rencontrez les artistes et créatrices Sonia Delaunay, Maija Isola, Julie Beaudeneau et Céline Lachkar. Explorez leur travail autour de la couleur, de la forme et de l’impression textile, puis créez votre propre motif.",
@@ -97,7 +125,35 @@ export const historyCopy = {
     "next": "Continuer à créer mon tissu",
     "make": "Rencontrer les créatrices",
     "printed": "Votre première empreinte.",
-    "hint": "Voici votre carré de motifs. Cliquez sur une fleur pour changer sa couleur ou la déplacer. À la fin, votre composition sera répétée sur tout le tissu."
+    "hint": "Voici votre carré de motifs. Cliquez sur une fleur pour changer sa couleur ou la déplacer. À la fin, votre composition sera répétée sur tout le tissu.",
+    "readArtist": "En savoir plus sur",
+    "readingHeads": [
+      "Époque et contexte",
+      "Son travail",
+      "Ce qui compte"
+    ],
+    "artistDetails": [
+      [
+        "En 1920, le dessin textile relie les choix artistiques aux questions techniques de fabrication des couleurs. Cette année-là, le « Cercle chromatique esthétique » de Julie Beaudeneau reçoit le prix Schaeffer.",
+        "Sa contribution est un outil pour travailler la couleur. Le cercle invite à regarder les relations : on choisit une couleur pour elle-même, mais aussi pour son effet auprès des autres.",
+        "Ce prix documenté rend son apport visible. Elle représente ici la théorie des couleurs comme base de la création, et non un motif floral précis ou un mouvement artistique à elle seule."
+      ],
+      [
+        "Sonia Delaunay appartient à l’art moderne. Dans les années 1920, elle relie peinture abstraite, mode et dessin textile. En 1924, elle présente des tissus imprimés au Salon d’automne à Paris.",
+        "Ses « Tissus simultanés » explorent les contrastes de couleurs et les formes abstraites. Son atelier puis la Maison Sonia Delaunay font passer cette recherche artistique dans les vêtements et les tissus.",
+        "Son travail traverse la frontière entre tableau et objet d’usage. L’art abstrait peut se porter et bouger avec le corps. Pour votre dessin, cela pose une question concrète : le motif et le fond agissent toujours ensemble."
+      ],
+      [
+        "Céline Lachkar représente ici la transmission actuelle d’un savoir-faire ancien. Le blockprint qu’elle a appris en Inde est une technique vivante, plutôt qu’un mouvement artistique historique.",
+        "Elle transmet l’impression à la main en atelier, notamment avec des planches anciennes. On applique la couleur, on presse, puis on déplace la planche. Une suite de gestes compose la surface imprimée.",
+        "Son rôle dans ce parcours est celui de la transmission : rendre sensible le travail derrière un motif. Son emplacement et sa répétition sont des choix de création, au même titre que sa couleur."
+      ],
+      [
+        "Maija Isola travaille dans le design textile finlandais de l’après-guerre. En 1964, elle crée Unikko pour Marimekko. Ce motif fleuri devient l’un des plus connus de la maison.",
+        "Elle dessine plus de 500 motifs pour Marimekko au cours de sa carrière. Avec Unikko, la fleur devient une grande forme simplifiée, plutôt qu’une représentation fidèle de la nature.",
+        "Son travail montre l’autonomie du dessin textile : couleur, échelle et silhouette portent la création. Les motifs proposés ici ne copient pas Unikko ; ils permettent d’explorer une question de forme avec votre propre composition."
+      ]
+    ]
   },
   "en": {
     "intro": "How does art become fabric we can wear? Meet the artists and designers Sonia Delaunay, Maija Isola, Julie Beaudeneau and Céline Lachkar. Explore their work with colour, shape and textile printing, then create your own pattern.",
@@ -147,6 +203,34 @@ export const historyCopy = {
     "next": "Continue designing my fabric",
     "make": "Meet the creators",
     "printed": "Your first impression.",
-    "hint": "This is your pattern square. Click a flower to change its colour or move it. At the end, your composition will repeat across the whole fabric."
+    "hint": "This is your pattern square. Click a flower to change its colour or move it. At the end, your composition will repeat across the whole fabric.",
+    "readArtist": "More about",
+    "readingHeads": [
+      "Period and context",
+      "Her work",
+      "Why it matters"
+    ],
+    "artistDetails": [
+      [
+        "In 1920, textile design connects artistic choices with the technical questions of making colour. That year, Julie Beaudeneau’s “Cercle chromatique esthétique” receives the Schaeffer Prize.",
+        "Her contribution is a tool for working with colour. The circle focuses attention on relationships: a colour is chosen not only on its own, but for its effect alongside others.",
+        "The documented award makes her contribution visible. Here, she represents colour theory as a foundation for design, rather than a particular floral pattern or an artistic movement of her own."
+      ],
+      [
+        "Sonia Delaunay is part of modern art. In the 1920s, she connects abstract painting with fashion and textile design. In 1924, she presents printed fabrics at the Salon d’automne in Paris.",
+        "Her “Tissus simultanés” explore colour contrasts and abstract shapes. Through her studio and Maison Sonia Delaunay, she brings this artistic research into clothing and fabrics.",
+        "Her work crosses the boundary between painting and everyday objects. Abstract art can be worn and move with the body. For your design, this raises a practical question: the motif and its background always work together."
+      ],
+      [
+        "Céline Lachkar represents the present-day passing on of an older craft. The block printing she learned in India is a living technique, rather than a historical art movement.",
+        "She teaches printing by hand in workshops, including work with historical blocks. Colour is applied, the block is pressed and then moved. A sequence of gestures builds the printed surface.",
+        "Her role in this journey is to make the work behind a pattern tangible. Where you place a motif and how you repeat it are design decisions, just as much as its colour."
+      ],
+      [
+        "Maija Isola works within post-war Finnish textile design. In 1964, she creates Unikko for Marimekko. The floral pattern becomes one of the company’s best-known designs.",
+        "Over her career, she creates more than 500 patterns for Marimekko. In Unikko, she turns a flower into a large, simplified shape rather than a faithful depiction of nature.",
+        "Her work shows the independence of textile design: colour, scale and silhouette carry the composition. The motifs here do not copy Unikko; they let you explore a related design question through shapes of your own."
+      ]
+    ]
   }
 };
