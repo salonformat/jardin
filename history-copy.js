@@ -1,6 +1,6 @@
 export const historyCopy = {
   "de": {
-    "intro": "Wie wird Kunst zu einem Stoff, den wir tragen? Lerne Sonia Delaunay, Maija Isola, Julie Beaudeneau und Céline Lachkar kennen. Entdecke ihre Arbeit mit Farbe, Form und Textildruck – und gestalte dein eigenes Muster.",
+    "intro": "Wie wird Kunst zu einem Stoff, den wir tragen? Lerne die Künstlerinnen und Gestalterinnen Sonia Delaunay, Maija Isola, Julie Beaudeneau und Céline Lachkar kennen. Entdecke ihre Arbeit mit Farbe, Form und Textildruck – und gestalte dein eigenes Muster.",
     "meet": "Kunst muss nicht an der Wand bleiben.",
     "meetLead": "Farblehre um 1920, abstrakte Kunst, finnisches Design und Handwerk heute: vier Wege zum Stoff.",
     "eras": [
@@ -50,7 +50,7 @@ export const historyCopy = {
     "hint": "Das ist dein Musterquadrat. Klicke eine Blume an, ändere ihre Farbe oder verschiebe sie. Erst am Ende wird dein Entwurf über den ganzen Stoff wiederholt."
   },
   "fr": {
-    "intro": "Comment l’art devient-il un tissu que l’on porte ? Rencontrez Sonia Delaunay, Maija Isola, Julie Beaudeneau et Céline Lachkar. Explorez leur travail autour de la couleur, de la forme et de l’impression textile, puis créez votre propre motif.",
+    "intro": "Comment l’art devient-il un tissu que l’on porte ? Rencontrez les artistes et créatrices Sonia Delaunay, Maija Isola, Julie Beaudeneau et Céline Lachkar. Explorez leur travail autour de la couleur, de la forme et de l’impression textile, puis créez votre propre motif.",
     "meet": "L’art ne s’arrête pas au tableau.",
     "meetLead": "La couleur vers 1920, l’art abstrait, le design finlandais et l’artisanat d’aujourd’hui : quatre chemins vers le tissu.",
     "eras": [
@@ -100,7 +100,7 @@ export const historyCopy = {
     "hint": "Voici votre carré de motifs. Cliquez sur une fleur pour changer sa couleur ou la déplacer. À la fin, votre composition sera répétée sur tout le tissu."
   },
   "en": {
-    "intro": "How does art become fabric we can wear? Meet Sonia Delaunay, Maija Isola, Julie Beaudeneau and Céline Lachkar. Explore their work with colour, shape and textile printing, then create your own pattern.",
+    "intro": "How does art become fabric we can wear? Meet the artists and designers Sonia Delaunay, Maija Isola, Julie Beaudeneau and Céline Lachkar. Explore their work with colour, shape and textile printing, then create your own pattern.",
     "meet": "Art doesn’t have to stay on the wall.",
     "meetLead": "Colour theory around 1920, abstract art, Finnish design and craft today: four paths to fabric.",
     "eras": [
