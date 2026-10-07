@@ -1,6 +1,6 @@
 export const historyCopy = {
   "de": {
-    "intro": "Wie wird Kunst zu einem Stoff, den wir tragen? Lerne die Künstlerinnen und Gestalterinnen Sonia Delaunay, Maija Isola, Julie Beaudeneau und Céline Lachkar kennen. Entdecke ihre Arbeit mit Farbe, Form und Textildruck – und gestalte dein eigenes Muster.",
+    "intro": "Entdecke, wie Künstlerinnen Stoffe gestaltet haben – und probiere es selbst aus. Drucke Blumen, spiele mit Farben und nimm dein eigenes Muster mit.",
     "meet": "Warum gerade Stoff?",
     "meetLead": "Wir tragen Stoff und leben mit ihm. Künstlerinnen wie Sonia Delaunay bringen darauf Kunst in unseren Alltag.",
     "eras": [
@@ -82,10 +82,11 @@ export const historyCopy = {
       "Sonia bringt abstrakte Kunst auf Stoff und Kleidung. Sie zeigt, wie Farben sich gegenseitig verändern.",
       "Céline vermittelt den Stoffdruck von Hand. Mit jedem Abdruck entscheiden wir über Abstand, Anordnung und Rhythmus.",
       "Maija macht aus einer Blume eine große, einfache Form. Ihr Muster Unikko zeigt, wie stark Farbe und Form wirken können."
-    ]
+    ],
+    "subject": "Kunst auf Stoff"
   },
   "fr": {
-    "intro": "Comment l’art devient-il un tissu que l’on porte ? Rencontrez les artistes et créatrices Sonia Delaunay, Maija Isola, Julie Beaudeneau et Céline Lachkar. Explorez leur travail autour de la couleur, de la forme et de l’impression textile, puis créez votre propre motif.",
+    "intro": "Découvrez comment des artistes ont créé des tissus, puis à vous de jouer. Imprimez des fleurs, explorez les couleurs et repartez avec votre propre motif.",
     "meet": "Pourquoi le tissu ?",
     "meetLead": "Nous portons du tissu et vivons avec lui. Des artistes comme Sonia Delaunay en font une place pour l’art au quotidien.",
     "eras": [
@@ -167,10 +168,11 @@ export const historyCopy = {
       "Sonia fait passer l’art abstrait sur les tissus et les vêtements. Elle montre comment les couleurs se transforment les unes les autres.",
       "Céline transmet l’impression textile à la main. Chaque empreinte permet de choisir un espace, une place et un rythme.",
       "Maija transforme une fleur en une grande forme simple. Son motif Unikko révèle la force de la couleur et de la forme."
-    ]
+    ],
+    "subject": "L’art sur le tissu"
   },
   "en": {
-    "intro": "How does art become fabric we can wear? Meet the artists and designers Sonia Delaunay, Maija Isola, Julie Beaudeneau and Céline Lachkar. Explore their work with colour, shape and textile printing, then create your own pattern.",
+    "intro": "Discover how artists designed fabrics, then try it yourself. Print flowers, play with colour and take home a pattern of your own.",
     "meet": "Why fabric?",
     "meetLead": "We wear fabric and live with it. Artists such as Sonia Delaunay use it to bring art into everyday life.",
     "eras": [
@@ -252,6 +254,7 @@ export const historyCopy = {
       "Sonia brings abstract art to fabric and clothing. She shows how colours change each other.",
       "Céline teaches textile printing by hand. Each impression is a choice about spacing, placement and rhythm.",
       "Maija turns a flower into a big, simple shape. Her Unikko pattern shows the power of colour and form."
-    ]
+    ],
+    "subject": "Art on fabric"
   }
 };

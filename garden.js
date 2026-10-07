@@ -36,12 +36,18 @@ export class Garden {
       this.flowerShape(320,320,232,seed,1,colours,0);this.ctx=original;
       let rand=seed+147;const random=()=>{rand=(rand*1664525+1013904223)>>>0;return rand/4294967296;};
       pigment.globalCompositeOperation='source-atop';
-      for(let i=0;i<1300;i++){
+      for(let i=0;i<2400;i++){
         const px=random()*640,py=random()*640;
-        pigment.strokeStyle=`rgba(255,243,213,${.03+random()*.13})`;pigment.lineWidth=.5+random()*2;
-        pigment.beginPath();pigment.moveTo(px,py);pigment.lineTo(px+8+random()*32,py-4-random()*12);pigment.stroke();
+        pigment.strokeStyle=`rgba(255,243,213,${.05+random()*.20})`;pigment.lineWidth=.7+random()*3.5;
+        pigment.beginPath();pigment.moveTo(px,py);pigment.lineTo(px+12+random()*46,py-5-random()*19);pigment.stroke();
       }
+      // Broken, directional dry pigment leaves the ground visible between strokes.
       pigment.globalCompositeOperation='destination-out';
+      for(let i=0;i<1900;i++){
+        const px=random()*640,py=random()*640;
+        pigment.strokeStyle=`rgba(0,0,0,${.08+random()*.23})`;pigment.lineWidth=.4+random()*1.7;
+        pigment.beginPath();pigment.moveTo(px,py);pigment.lineTo(px+6+random()*28,py-3-random()*12);pigment.stroke();
+      }
       for(let i=0;i<14000;i++){
         const px=random()*640,py=random()*640;
         pigment.fillStyle=`rgba(0,0,0,${.06+random()*.34})`;
@@ -61,10 +67,12 @@ export class Garden {
     const w=this.w,h=this.h,c=this.ctx,mobile=w<700,basis=Math.min(w,h);
     const px=this.paused?0:this.pointer.x,py=this.paused?0:this.pointer.y;
     const flowers=mobile?[
+      [.22,.22,.14,0,.3],[.79,.33,.16,6,-.2],[.20,.70,.17,3,.2],[.82,.57,.14,4,-.3],[.47,.83,.16,2,.1],
       [.37,-.035,.10,6,.2],[.02,.29,.075,3,-.3],[.99,.62,.08,2,.2],[.40,1.04,.12,1,-.2],
       [.06,.05,.14,4,-.4],[.86,.1,.16,3,.3],[1.08,.43,.15,1,-.1],[-.12,.53,.14,2,.4],
       [.03,.99,.18,0,-.2],[.37,1.03,.16,4,.1],[.76,.91,.23,5,-.3],[1.02,.75,.18,1,.2]
     ]:[
+      [.04,.95,.17,3,.1],[.96,.02,.17,2,-.2],[.48,.48,.16,0,.3],[.37,.57,.14,6,-.2],
       [.15,.16,.12,2,.3],[.39,.08,.13,4,-.3],[.64,.13,.12,3,.2],[.91,.38,.12,0,.3],
       [.06,.53,.13,6,-.2],[.34,.83,.12,4,.3],[.61,.86,.12,1,-.2],[.89,.98,.12,3,.2],
       [.02,.08,.23,4,-.4],[.24,-.03,.22,3,.2],[.49,-.08,.20,6,-.3],[.74,.03,.22,0,.4],[.98,.13,.25,3,-.2],
