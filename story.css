@@ -7,3 +7,7 @@
 .artist-essay{max-width:560px;padding:6px 0 14px}.artist-essay section{margin-top:20px}.artist-essay h3{font-size:23px;color:#f1c86c}.artist-essay p{font-size:16px;line-height:1.7;margin-top:9px}.reading-source-label{margin-top:24px!important;font-weight:600}@media(max-width:700px){.artist-essay h3{font-size:22px}.artist-essay p{font-size:15px}}
 
 .story-intro>p{max-width:750px;margin:17px auto 0;line-height:1.65}.print-story-heading p{font-size:18px}@media(max-width:700px){.story-intro>p{font-size:15px}.print-story-heading p{font-size:16px}}
+
+/* Short visible scenes, long reading only on request. */
+.story-intro>p{max-width:600px}.story-body{max-width:470px;font-size:21px;line-height:1.65;margin:24px 0}.story-source{margin:0 0 28px}.story-source>summary{display:inline-block;min-height:44px;padding:10px 0;border-bottom:1px solid #faefd560}.story-source>summary:before{content:'+';display:inline-block;width:20px}.story-source[open]>summary:before{content:'−'}.story-source>summary::-webkit-details-marker{display:none}.story-source[open]{padding-bottom:20px}.artist-essay section+section{margin-top:28px}.portrait-story{margin-top:35px}.take-heading>p{max-width:620px}.studio-intro p{max-width:630px}.story-footer li{opacity:.8}
+@media(max-width:700px){.story-body{font-size:18px;margin:18px 0}.portrait-story{margin-top:25px;gap:20px}.story-source{margin-bottom:22px}.story-intro>p{line-height:1.6}.take-heading>p{max-width:330px}}
