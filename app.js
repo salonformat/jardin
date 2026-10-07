@@ -9,9 +9,11 @@ import {Garden,INKS} from './garden.js';
 import {copy,journeyCopy,printCopy} from './content.js';
 const app=document.querySelector('#app');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-const saved=(()=>{try{return JSON.parse(localStorage.getItem('salon-jardin')||'{}')}catch{return {}}})();
-const state={motifs:cleanMotifs(saved.motifs),edited:!!saved.edited,bloom:!!saved.bloom,repeated:!!saved.repeated,palette:Number.isInteger(saved.palette)&&saved.palette>=0&&saved.palette<INKS.length?saved.palette:0,spacing:Number.isFinite(saved.spacing)?Math.max(0,Math.min(100,saved.spacing)):45,ground:[0,1,2].includes(saved.ground)?saved.ground:0,layout:saved.layout===0?0:1,scale:saved.scale===1?1:0,thought:[0,1,2].includes(saved.thought)?saved.thought:null,answer:[0,1].includes(saved.answer)?saved.answer:null,lastCreator:[0,1,2,3].includes(saved.lastCreator)?saved.lastCreator:1,beforeDesign:saved.beforeDesign||null,activeCreator:null,explored:Array.isArray(saved.explored)?saved.explored:[false,false,false,false],person:saved.person==='julie'?'julie':'sonia',paused:reduced.matches,sound:false};
-let previousDesign=(()=>{try{return JSON.parse(localStorage.getItem('salon-jardin-previous')||'null')}catch{return null}})();
+// Opening the experience never restores artwork implicitly. Resume is an explicit action.
+const saved={};
+const state={motifs:[],edited:!!saved.edited,bloom:!!saved.bloom,repeated:!!saved.repeated,palette:Number.isInteger(saved.palette)&&saved.palette>=0&&saved.palette<INKS.length?saved.palette:0,spacing:Number.isFinite(saved.spacing)?Math.max(0,Math.min(100,saved.spacing)):45,ground:[0,1,2].includes(saved.ground)?saved.ground:0,layout:saved.layout===0?0:1,scale:saved.scale===1?1:0,thought:[0,1,2].includes(saved.thought)?saved.thought:null,answer:[0,1].includes(saved.answer)?saved.answer:null,lastCreator:[0,1,2,3].includes(saved.lastCreator)?saved.lastCreator:1,beforeDesign:saved.beforeDesign||null,activeCreator:null,explored:Array.isArray(saved.explored)?saved.explored:[false,false,false,false],person:saved.person==='julie'?'julie':'sonia',paused:reduced.matches,sound:false};
+let previousDesign=(()=>{for(const key of ['salon-jardin','salon-jardin-previous']){try{const draft=JSON.parse(localStorage.getItem(key)||'null');if(cleanMotifs(draft?.motifs)?.length)return draft}catch{}}return null})();
+if(previousDesign){try{localStorage.setItem('salon-jardin-previous',JSON.stringify(previousDesign))}catch{}}
 let printTimer;
 let garden,locale='fr',scene='jardin',phase=0,audio,oscillators=[],master,routeTimer;
 const arrow='<svg class="arrow" viewBox="0 0 30 20" fill="none" aria-hidden="true"><path d="M1 10h26M19 2l8 8-8 8" stroke="currentColor" stroke-width="1.3"/></svg>';
