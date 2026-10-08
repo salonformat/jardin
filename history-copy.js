@@ -43,7 +43,7 @@ export const historyCopy = {
       "Gestalten",
       "Mitnehmen"
     ],
-    "start": "Die erste Blume drucken",
+    "start": "Experience starten",
     "next": "Im Atelier ausprobieren",
     "make": "Die Künstlerinnen kennenlernen",
     "printed": "Dein erster Abdruck.",
@@ -145,7 +145,7 @@ export const historyCopy = {
       "Créer",
       "Emporter"
     ],
-    "start": "Imprimer la première fleur",
+    "start": "Commencer l’expérience",
     "next": "Essayer dans l’atelier",
     "make": "Rencontrer les créatrices",
     "printed": "Votre première empreinte.",
@@ -247,7 +247,7 @@ export const historyCopy = {
       "Create",
       "Take home"
     ],
-    "start": "Print the first flower",
+    "start": "Start the experience",
     "next": "Try it in the studio",
     "make": "Meet the creators",
     "printed": "Your first impression.",

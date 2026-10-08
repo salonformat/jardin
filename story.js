@@ -1,4 +1,4 @@
-import {historyCopy} from './history-copy.js?v=natural-language';
+import {historyCopy} from './history-copy.js?v=start-experience';
 import {journey} from './journey.js?v=fresh-cloth-fit-screen';
 import {Textile,downloadPattern} from './textile.js?v=fresh-cloth-fit-screen';
 import {studioMarkup,bindStudio} from './studio.js?v=natural-language';

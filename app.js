@@ -1,6 +1,6 @@
 import {lookingMarkup,bindLooking} from './looking.js?v=choose-a-creator';
 import {printingMarkup,bindPrinting} from './printing.js?v=natural-language';
-import {story,storyMarkup,bindStory} from './story.js?v=natural-language';
+import {story,storyMarkup,bindStory} from './story.js?v=start-experience';
 import {experience} from './experience.js?v=fresh-cloth-fit-screen';
 import {cleanMotifs} from './motif-model.js?v=fresh-cloth-fit-screen';
 import {journey} from './journey.js?v=fresh-cloth-fit-screen';
