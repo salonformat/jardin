@@ -1,4 +1,4 @@
-import {demoMarkup,bindDemo} from './idea-demo.js?v=popova-and-patterns';
+import {demoMarkup,bindDemo} from './idea-demo.js?v=clear-rows';
 import {historyCopy} from './history-copy.js?v=popova-and-patterns';
 import {journey} from './journey.js?v=popova-and-patterns';
 import {Textile,downloadPattern} from './textile.js?v=popova-and-patterns';
