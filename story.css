@@ -103,3 +103,5 @@
 .fabric-context{max-width:700px;margin:20px auto 0}.fabric-context p{max-width:65ch}.fabric-context summary{font-size:15px}
 
 .creator-transition{font-size:16px;line-height:1.5;max-width:500px;margin:20px 0}@media(max-width:700px){.looking-copy .creator-transition{order:7;margin:0;font-size:15px}.looking-copy>.story-primary{order:8}}
+
+#studio-reset{display:block;width:100%;margin-top:12px;font-size:13px}@media(max-width:700px){.studio-tools{grid-template-areas:"kind ink ground" "size size undo" "add more more" "reset reset reset"}.studio-tools #studio-reset{grid-area:reset;margin:0;min-height:44px}.studio-tools:has(.studio-extra[open]) .studio-extra{grid-row:5}}
