@@ -1,6 +1,6 @@
 import {lookingMarkup,bindLooking} from './looking.js?v=four-designers';
 import {printingMarkup,bindPrinting} from './printing.js?v=visible-art-button';
-import {story,storyMarkup,bindStory} from './story.js?v=visible-art-button';
+import {story,storyMarkup,bindStory} from './story.js?v=quiet-reading-view';
 import {experience} from './experience.js?v=popova-and-patterns';
 import {cleanMotifs} from './motif-model.js?v=popova-and-patterns';
 import {journey} from './journey.js?v=popova-and-patterns';
