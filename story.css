@@ -99,3 +99,5 @@
 @media(max-width:700px){
  .hands-on-print .print-introduction{margin-bottom:14px}.hands-on-print .print-introduction h1{font-size:28px}.hands-on-print .print-introduction p{font-size:14px;line-height:1.4;margin-top:10px}.hands-on-print .fabric-surface{width:min(100%,26svh);margin:auto}.hands-on-print .printing-table{gap:14px}.hands-on-print #wood-block{width:70px}.hands-on-print .block-rest{grid-template-columns:80px 1fr;gap:4px 18px}.hands-on-print .printing-reading{margin-top:4px}.hands-on-print .stamp-complete{margin-top:8px}
 }
+
+.fabric-context{max-width:700px;margin:20px auto 0}.fabric-context p{max-width:65ch}.fabric-context summary{font-size:15px}

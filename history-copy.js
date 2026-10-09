@@ -1,8 +1,8 @@
 export const historyCopy = {
   "de": {
-    "intro": "Künstlerinnen wie Sonia Delaunay brachten ihre Kunst auf Stoff und Kleidung. Du erfährst, wie Stoffdruck funktioniert, und probierst aus, wie Farben, Formen und Abstände ein Muster verändern.",
+    "intro": "Stoffe werden seit Jahrhunderten gestaltet. In den 1920er-Jahren wollten Künstlerinnen wie Sonia Delaunay und Ljubow Popowa ihre abstrakte Kunst auch in den Alltag bringen: auf Stoffe und Kleidung. Entdecke ihre Ideen und gestalte selbst ein Muster.",
     "meet": "Kunst auf Stoff",
-    "meetLead": "Wie wird aus einer Idee ein Stoffmuster? Diese vier Gestalterinnen zeigen verschiedene Wege: mit Farbe, mit einfachen Formen und mit dem Druckstock.",
+    "meetLead": "Ein Bild hängt an der Wand. Ein Stoff kann zu Kleidung werden und Menschen im Alltag begleiten. Diese vier Gestalterinnen zeigen, wie viel künstlerische Arbeit in Farben und Mustern steckt.",
     "eras": [
       "1920 · Farblehre und Textil",
       "1920er · Moderne und Abstraktion",
@@ -99,12 +99,18 @@ export const historyCopy = {
       "Beim Drucken überträgt der Druckstock Farbe auf den Stoff. Bei einem gewebten Muster entsteht das Bild aus den Fäden selbst.",
       "Durch Wiederholung wird aus einem einzelnen Motiv ein Stoffmuster. Farbe, Größe und Abstand bestimmen, wie es wirkt.",
       "Stoff verbindet künstlerische Gestaltung mit dem Alltag: Ein Muster kann Kleidung oder einen ganzen Raum verändern."
+    ],
+    "fabricWhy": "Warum gerade Stoff?",
+    "fabricContext": [
+      "Stoffe zu gestalten war keine neue Erfindung. Neu waren die abstrakten Farben und Formen, die Künstlerinnen wie Delaunay und Popowa aus ihrer Malerei in Stoffentwürfe übernahmen.",
+      "Sie gingen dabei unterschiedliche Wege. Delaunay verband ihre Malerei mit Mode. Popowa entwarf für eine Stoffdruckfabrik: Ihre Kunst sollte Teil der industriellen Herstellung werden und auf Alltagsgegenständen viele Menschen erreichen.",
+      "Ein Stoffmuster lässt sich immer wieder drucken. So kann ein Entwurf auf vielen Kleidungsstücken auftauchen. Dafür muss er auch über eine große Fläche funktionieren. Das probierst du hier mit deinen eigenen Farben und Formen aus."
     ]
   },
   "fr": {
-    "intro": "Des artistes comme Sonia Delaunay ont fait entrer leur art dans les tissus et les vêtements. Découvrez comment fonctionne l’impression textile et essayez de changer un motif en jouant avec les couleurs, les formes et les espacements.",
+    "intro": "On dessine des tissus depuis des siècles. Dans les années 1920, des artistes comme Sonia Delaunay et Lioubov Popova ont voulu faire entrer leur art abstrait dans la vie quotidienne, sur les tissus et les vêtements. Découvrez leurs idées et créez votre motif.",
     "meet": "L’art sur le tissu",
-    "meetLead": "Comment une idée devient-elle un motif textile ? Ces quatre créatrices explorent la couleur, les formes simples et l’impression à la planche.",
+    "meetLead": "Un tableau s’accroche au mur. Un tissu peut devenir un vêtement que l’on porte tous les jours. Ces quatre créatrices montrent le travail artistique derrière les couleurs et les motifs.",
     "eras": [
       "1920 · Couleur et textile",
       "Années 1920 · Art moderne et abstraction",
@@ -201,12 +207,18 @@ export const historyCopy = {
       "La planche d’impression dépose la couleur sur le tissu. Dans un motif tissé, le dessin est formé par les fils eux-mêmes.",
       "En répétant un motif, on compose une surface. Sa couleur, sa taille et les espaces autour de lui changent son effet.",
       "Le tissu relie la création artistique au quotidien : un motif peut transformer un vêtement ou toute une pièce."
+    ],
+    "fabricWhy": "Pourquoi le tissu ?",
+    "fabricContext": [
+      "Dessiner des tissus n’était pas nouveau. Delaunay et Popova y ont apporté les couleurs et les formes abstraites qu’elles exploraient en peinture.",
+      "Elles ont suivi des chemins différents. Delaunay a relié sa peinture à la mode. Popova a travaillé pour une fabrique d’impression textile : elle voulait que l’art participe à la production industrielle et touche un large public à travers les objets du quotidien.",
+      "Un motif peut être imprimé encore et encore, puis se retrouver sur de nombreux vêtements. Il doit donc fonctionner sur toute une surface. Ici, vous l’essayez avec vos propres couleurs et formes."
     ]
   },
   "en": {
-    "intro": "Artists such as Sonia Delaunay brought their art to fabrics and clothing. Discover how textile printing works, then try changing a pattern through colour, shape and spacing.",
+    "intro": "People have designed fabrics for centuries. In the 1920s, artists such as Sonia Delaunay and Liubov Popova wanted their abstract art to be part of everyday life, on fabrics and clothing. Explore their ideas and create a pattern of your own.",
     "meet": "Art on fabric",
-    "meetLead": "How does an idea become a fabric pattern? These four designers explore colour, simple shapes and printing by hand.",
+    "meetLead": "A painting hangs on a wall. Fabric can become clothing that people wear every day. These four designers show how much artistic work goes into colours and patterns.",
     "eras": [
       "1920 · Colour theory and textiles",
       "1920s · Modern art and abstraction",
@@ -303,6 +315,12 @@ export const historyCopy = {
       "A printing block transfers colour onto fabric. In a woven pattern, the design is made from the threads themselves.",
       "Repeating a motif creates a pattern across a surface. Colour, size and spacing change how it looks.",
       "Fabric brings artistic design into everyday life: a pattern can change the look of clothing or a whole room."
+    ],
+    "fabricWhy": "Why fabric?",
+    "fabricContext": [
+      "Designing fabrics was nothing new. Delaunay and Popova brought the abstract colours and shapes they explored in painting into their textile designs.",
+      "They took different paths. Delaunay connected her painting with fashion. Popova worked for a textile printing factory: she wanted art to become part of industrial production and reach many people through everyday objects.",
+      "A pattern can be printed again and again, appearing on many pieces of clothing. It needs to work across a whole surface. Here, you can try that with your own colours and shapes."
     ]
   }
 };
