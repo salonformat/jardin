@@ -1,5 +1,5 @@
 import {lookingMarkup,bindLooking} from './looking.js?v=clear-learning-tools';
-import {printingMarkup,bindPrinting} from './printing.js?v=natural-language';
+import {printingMarkup,bindPrinting} from './printing.js?v=historic-floral-fabric';
 import {story,storyMarkup,bindStory} from './story.js?v=art-in-everyday-life';
 import {experience} from './experience.js?v=popova-and-patterns';
 import {cleanMotifs} from './motif-model.js?v=popova-and-patterns';
