@@ -2,23 +2,23 @@ export const historyCopy = {
   "de": {
     "intro": "Künstlerinnen wie Sonia Delaunay brachten ihre Kunst auf Stoff und Kleidung. Du erfährst, wie Stoffdruck funktioniert, und probierst aus, wie Farben, Formen und Abstände ein Muster verändern.",
     "meet": "Kunst auf Stoff",
-    "meetLead": "Ob Farben, Blumen oder die Arbeit mit dem Druckstock: Jede dieser Gestalterinnen beschäftigt sich mit einem anderen Teil des Entwerfens.",
+    "meetLead": "Wie wird aus einer Idee ein Stoffmuster? Diese vier Gestalterinnen zeigen verschiedene Wege: mit Farbe, mit einfachen Formen und mit dem Druckstock.",
     "eras": [
       "1920 · Farblehre und Textil",
       "1920er · Moderne und Abstraktion",
-      "Heute · Handwerk weitergeben",
+      "1923–1924 · Konstruktivismus und Stoffdruck",
       "1964 · Finnisches Textildesign"
     ],
     "dates": [
       "1920",
       "1920er",
-      "Heute",
+      "1923–1924",
       "1964"
     ],
     "accounts": [
       "Julie Beaudeneau erhält 1920 einen Preis für ihren „Cercle chromatique esthétique“. Ihr Farbkreis untersucht, welche Farben zusammenwirken. Für den Textilentwurf ist das grundlegend: Die Wirkung eines Stoffes beginnt mit der Wahl seiner Farben.",
       "In den 1920er-Jahren bringt Sonia Delaunay abstrakte Kunst auf bedruckte Stoffe und Kleidung. Farben und Formen sollen auch im Alltag wirken. Entscheidend ist ihr Zusammenspiel: Eine Farbe verändert ihre Wirkung durch die Farben neben ihr.",
-      "Mit Céline Lachkar führt der Weg zum Handwerk heute. Sie hat Blockprint in Indien gelernt und vermittelt das Drucken von Hand. Jeder Abdruck braucht eine Entscheidung: Wo sitzt das Motiv, wie viel Abstand bleibt, welcher Rhythmus entsteht?",
+      "Ljubow Popowa malte abstrakte Bilder und entwarf ab 1923 Muster für eine Moskauer Stoffdruckfabrik. Ihre Stoffe zeigen geometrische Formen. Kunst sollte für sie auch in Dingen stecken, die Menschen jeden Tag benutzen.",
       "1964 entwirft Maija Isola Unikko für Marimekko. Aus einer Blume macht sie eine große, vereinfachte Form. Im finnischen Textildesign wird daraus ein markantes Alltagsmotiv. Hier zählt nicht botanische Genauigkeit, sondern die Kraft von Form und Farbe."
     ],
     "printTitle": "Vom Kunstentwurf auf den Stoff.",
@@ -26,15 +26,15 @@ export const historyCopy = {
     "repeat": "Deine erste Blume ist auf dem Stoff. Was haben Künstlerinnen mit Stoff gemacht? Das entdeckst du als Nächstes.",
     "studioTitle": "Gestalte deinen Stoff.",
     "ideas": [
-      "Julie beschäftigte sich damit, welche Farben zusammenpassen. Gib deinen Blumen unterschiedliche Farben und schau, welche Kombination dir gefällt.",
-      "Sonia untersuchte, wie Farben nebeneinander wirken. Ändere die Stofffarbe: Wie sehen deine Blumen auf dem neuen Hintergrund aus?",
-      "Beim Drucken entscheidet jeder Abdruck mit über das Muster. Verschiebe deine Blumen und probiere aus, wie viel Abstand du zwischen ihnen lassen möchtest.",
-      "Maija vereinfachte Blumen zu großen, klaren Formen. Wähle ein Motiv und ändere seine Größe. Was gefällt dir besser?"
+      "Gib einer Blume eine andere Farbe als den übrigen. Welche fällt dir zuerst auf?",
+      "Ändere nur die Stofffarbe. Vergleiche, wie deine Blumen auf dem hellen, rosa und gelben Stoff aussehen.",
+      "Wähle als Motiv das Dreieck und füge mehrere hinzu. Ordne sie erst untereinander an. Verschiebe dann jedes zweite Dreieck ein Stück nach rechts.",
+      "Wähle eine Blume aus und vergrößere sie. Wie viel vom Stoff ist noch zu sehen?"
     ],
     "conclusions": [
       "Aus deinen Farben und Formen ist ein Stoffmuster geworden. Du hast Julies Frage nach dem Zusammenspiel der Farben selbst ausprobiert.",
       "Dein Entwurf wiederholt sich jetzt über den Stoff. Aus einzelnen Farb- und Formentscheidungen wird etwas, das einen ganzen Raum oder ein Kleidungsstück prägen könnte.",
-      "Einzelne Motive werden zu einem Muster. Bei Céline hast du gesehen, wie viel Gestaltung in jedem Abdruck steckt.",
+      "Stoff verbindet künstlerische Gestaltung mit dem Alltag: Ein Muster kann Kleidung oder einen ganzen Raum verändern.",
       "Deine Blumen sind zu einem Stoffmuster geworden. Maijas Arbeit zeigt, welche Kraft in einfachen Formen liegt."
     ],
     "chapters": [
@@ -66,9 +66,9 @@ export const historyCopy = {
         "Ihre Kunst findet Platz auf Bildern, aber auch auf Dingen, die Menschen benutzen. Abstrakte Kunst kann getragen werden und sich mit dem Körper bewegen. Für deinen Entwurf heißt das: Motiv und Hintergrund wirken immer zusammen."
       ],
       [
-        "Céline Lachkar steht in dieser Experience für ein altes Handwerk, das heute noch gelehrt wird. Ihre in Indien erlernte Blockprint-Praxis ist keine historische Kunstrichtung, sondern eine lebendige Drucktechnik.",
-        "In Workshops vermittelt sie das Drucken mit der Hand, auch mit historischen Druckstöcken. Ein Motiv wird eingefärbt, angedrückt und erneut angesetzt. So entsteht aus einzelnen Handlungen eine bedruckte Fläche.",
-        "Ihr Beitrag liegt hier in der Vermittlung: Sie zeigt, wie viel Handarbeit in einem Muster steckt. Wo du ein Motiv platzierst und wie du es wiederholst, ist ebenso eine Gestaltungsentscheidung wie seine Farbe."
+        "Ljubow Popowa (1889–1924) gehörte zur russischen Avantgarde. Sie arbeitete in einer Zeit, in der Künstlerinnen und Künstler nach neuen Aufgaben für ihre Kunst suchten.",
+        "Ab 1923 entwarf sie Muster für die Erste Staatliche Stoffdruckfabrik in Moskau. In ihren Entwürfen kombinierte sie geometrische Formen und Farben.",
+        "Damit wurde der Stoff selbst zum Ort für abstrakte Kunst. Ein Muster war kein verkleinertes Gemälde: Es musste über eine ganze Fläche funktionieren. Im Beispiel hier siehst du, was sich verändert, wenn du dieselbe Form in versetzten Reihen anordnest."
       ],
       [
         "Maija Isola arbeitet im finnischen Textildesign der Nachkriegszeit. 1964 entwirft sie für Marimekko das Blumenmuster Unikko. Es wird zu einem der bekanntesten Motive des Unternehmens.",
@@ -78,10 +78,10 @@ export const historyCopy = {
     ],
     "mediumNote": "Stoff ist seit Jahrhunderten ein Material für Gestaltung. Bei Sonia Delaunay verbindet er die abstrakte Malerei mit Mode und Alltag. Ein Entwurf muss hier auch als wiederholtes Muster und auf bewegtem Stoff wirken. Weben, Sticken und Drucken sind dabei unterschiedliche Techniken.",
     "shortAccounts": [
-      "Julie untersucht, wie Farben zusammenwirken. Ihr Farbkreis hilft, sie bewusst zu kombinieren – auch beim Entwerfen von Stoffen.",
-      "Sonia bringt abstrakte Kunst auf Stoff und Kleidung. Sie zeigt, wie Farben sich gegenseitig verändern.",
-      "Céline vermittelt den Stoffdruck von Hand. Mit jedem Abdruck entscheiden wir über Abstand, Anordnung und Rhythmus.",
-      "Maija macht aus einer Blume eine große, einfache Form. Ihr Muster Unikko zeigt, wie stark Farbe und Form wirken können."
+      "Julie Beaudeneau entwickelte einen Farbkreis, für den sie 1920 einen Preis erhielt. Damit lassen sich Farben vergleichen und für einen Entwurf auswählen. Hier probierst du aus, was eine einzelne neue Farbe im Muster verändert.",
+      "Sonia Delaunay entwarf Gemälde, Stoffe und Kleidung. Sie interessierte sich dafür, wie eine Farbe neben einer anderen wirkt. Das kannst du hier ausprobieren, ohne die Farbe der Blume zu ändern.",
+      "Ljubow Popowa malte abstrakte Bilder und entwarf ab 1923 Muster für eine Moskauer Stoffdruckfabrik. Ihre Stoffe zeigen geometrische Formen. Kunst sollte für sie auch in Dingen stecken, die Menschen jeden Tag benutzen.",
+      "Maija Isola entwarf 1964 das Blumenmuster Unikko für Marimekko. Ihre Blumen sehen nicht naturgetreu aus: Sie sind groß und haben einfache Umrisse. Hier kannst du ausprobieren, was die Größe einer Blume auf dem Stoff verändert."
     ],
     "subject": "Kunst auf Stoff",
     "ending": "Dein Stoffmuster ist fertig.",
@@ -104,23 +104,23 @@ export const historyCopy = {
   "fr": {
     "intro": "Des artistes comme Sonia Delaunay ont fait entrer leur art dans les tissus et les vêtements. Découvrez comment fonctionne l’impression textile et essayez de changer un motif en jouant avec les couleurs, les formes et les espacements.",
     "meet": "L’art sur le tissu",
-    "meetLead": "Les couleurs, les fleurs ou le geste d’impression : chaque créatrice aborde le dessin textile à sa manière.",
+    "meetLead": "Comment une idée devient-elle un motif textile ? Ces quatre créatrices explorent la couleur, les formes simples et l’impression à la planche.",
     "eras": [
       "1920 · Couleur et textile",
       "Années 1920 · Art moderne et abstraction",
-      "Aujourd’hui · Transmettre un savoir-faire",
+      "1923–1924 · Constructivisme et impression textile",
       "1964 · Design textile finlandais"
     ],
     "dates": [
       "1920",
       "Années 1920",
-      "Aujourd’hui",
+      "1923–1924",
       "1964"
     ],
     "accounts": [
       "En 1920, Julie Beaudeneau reçoit un prix pour son « Cercle chromatique esthétique ». Elle y explore les relations entre les couleurs. Une question essentielle pour le dessin textile : l’effet d’un tissu commence par les couleurs que l’on choisit.",
       "Dans les années 1920, Sonia Delaunay fait passer l’art abstrait sur les tissus imprimés et les vêtements. La couleur et la forme entrent dans la vie quotidienne. Ce qui compte, c’est leur dialogue : une couleur change d’effet au contact d’une autre.",
-      "Avec Céline Lachkar, le parcours rejoint l’artisanat d’aujourd’hui. Formée au blockprint en Inde, elle transmet l’impression à la main. Chaque empreinte demande un choix : où placer le motif, quel espace laisser, quel rythme créer ?",
+      "Lioubov Popova peignait des tableaux abstraits. À partir de 1923, elle a aussi dessiné des motifs pour une fabrique d’impression textile à Moscou. Ses tissus reprennent des formes géométriques : pour elle, l’art devait aussi faire partie des objets du quotidien.",
       "En 1964, Maija Isola crée Unikko pour Marimekko. Elle transforme une fleur en une grande forme simplifiée. Dans le design textile finlandais, celle-ci devient un motif du quotidien. La force des formes et des couleurs compte plus que la précision botanique."
     ],
     "printTitle": "Du dessin d’artiste au tissu.",
@@ -128,15 +128,15 @@ export const historyCopy = {
     "repeat": "Votre première fleur est sur le tissu. Qu’en ont fait les artistes ? Allons découvrir leur travail.",
     "studioTitle": "Créez votre tissu.",
     "ideas": [
-      "Julie étudiait les associations de couleurs. Donnez des couleurs différentes à vos fleurs et choisissez la combinaison qui vous plaît.",
-      "Sonia explorait les couleurs placées côte à côte. Changez la couleur du tissu : quel effet ce nouveau fond donne-t-il à vos fleurs ?",
-      "Chaque empreinte contribue au motif. Déplacez vos fleurs et essayez différents espacements.",
-      "Maija transformait les fleurs en grandes formes simples. Choisissez un motif et changez sa taille. Quelle version préférez-vous ?"
+      "Donnez à une fleur une couleur différente des autres. Laquelle remarquez-vous en premier ?",
+      "Changez uniquement la couleur du tissu. Comparez vos fleurs sur les fonds clair, rose et jaune.",
+      "Choisissez le triangle et ajoutez-en plusieurs. Alignez-les, puis décalez un triangle sur deux vers la droite.",
+      "Sélectionnez une fleur et agrandissez-la. Quelle place reste-t-il au fond ?"
     ],
     "conclusions": [
       "Vos couleurs et vos formes composent un motif textile. Vous avez exploré la question de Julie : comment les couleurs se répondent-elles ?",
       "Votre dessin se répète maintenant sur le tissu. Vos choix de couleurs et de formes pourraient donner du caractère à toute une pièce ou à un vêtement.",
-      "Des empreintes séparées composent un motif. Avec Céline, vous avez vu les choix qui se cachent dans chaque geste.",
+      "Le tissu relie la création artistique au quotidien : un motif peut transformer un vêtement ou toute une pièce.",
       "Vos fleurs sont devenues un motif textile. Le travail de Maija montre la force des formes simples."
     ],
     "chapters": [
@@ -168,9 +168,9 @@ export const historyCopy = {
         "Son travail traverse la frontière entre tableau et objet d’usage. L’art abstrait peut se porter et bouger avec le corps. Pour votre dessin, cela pose une question concrète : le motif et le fond agissent toujours ensemble."
       ],
       [
-        "Céline Lachkar représente ici un savoir-faire ancien que l’on enseigne encore aujourd’hui. Le blockprint qu’elle a appris en Inde est une technique vivante, plutôt qu’un mouvement artistique historique.",
-        "Elle transmet l’impression à la main en atelier, notamment avec des planches anciennes. On applique la couleur, on presse, puis on déplace la planche. Une suite de gestes compose la surface imprimée.",
-        "Son rôle dans ce parcours est celui de la transmission : montrer le travail de la main derrière un motif. Son emplacement et sa répétition sont des choix de création, au même titre que sa couleur."
+        "Lioubov Popova (1889–1924) appartenait à l’avant-garde russe. À son époque, les artistes cherchaient de nouvelles façons de faire entrer l’art dans la vie quotidienne.",
+        "À partir de 1923, elle a dessiné des motifs pour la Première Fabrique d’impression textile d’État, à Moscou. Ses dessins associent formes géométriques et couleurs.",
+        "Le tissu devenait ainsi un support pour l’art abstrait. Il ne suffisait pas de réduire un tableau : le motif devait fonctionner sur toute une surface. Ici, voyez ce qui change quand les mêmes formes sont disposées en rangées décalées."
       ],
       [
         "Maija Isola travaille dans le design textile finlandais de l’après-guerre. En 1964, elle crée Unikko pour Marimekko. Ce motif fleuri devient l’un des plus connus de la maison.",
@@ -180,10 +180,10 @@ export const historyCopy = {
     ],
     "mediumNote": "Le tissu est un support de création depuis des siècles. Chez Sonia Delaunay, il relie peinture abstraite, mode et vie quotidienne. Le dessin doit aussi fonctionner lorsqu’il se répète et que le tissu bouge. Tissage, broderie et impression sont des techniques différentes.",
     "shortAccounts": [
-      "Julie explore les relations entre les couleurs. Son cercle aide à les associer, notamment pour dessiner des tissus.",
-      "Sonia fait passer l’art abstrait sur les tissus et les vêtements. Elle montre comment les couleurs se transforment les unes les autres.",
-      "Céline transmet l’impression textile à la main. Chaque empreinte permet de choisir un espace, une place et un rythme.",
-      "Maija transforme une fleur en une grande forme simple. Son motif Unikko révèle la force de la couleur et de la forme."
+      "Julie Beaudeneau a créé un cercle chromatique récompensé en 1920. Cet outil permet de comparer les couleurs et de les choisir pour un dessin. Ici, essayez de changer la couleur d’une seule fleur.",
+      "Sonia Delaunay créait des tableaux, des tissus et des vêtements. Elle s’intéressait à l’effet des couleurs placées côte à côte. Ici, vous pouvez le tester sans changer la couleur de la fleur.",
+      "Lioubov Popova peignait des tableaux abstraits. À partir de 1923, elle a aussi dessiné des motifs pour une fabrique d’impression textile à Moscou. Ses tissus reprennent des formes géométriques : pour elle, l’art devait aussi faire partie des objets du quotidien.",
+      "Maija Isola a créé le motif fleuri Unikko pour Marimekko en 1964. Ses fleurs sont grandes, avec des contours simples, plutôt que fidèles à la nature. Ici, voyez ce qui change quand une fleur prend plus de place sur le tissu."
     ],
     "subject": "L’art sur le tissu",
     "ending": "Votre motif est prêt.",
@@ -206,23 +206,23 @@ export const historyCopy = {
   "en": {
     "intro": "Artists such as Sonia Delaunay brought their art to fabrics and clothing. Discover how textile printing works, then try changing a pattern through colour, shape and spacing.",
     "meet": "Art on fabric",
-    "meetLead": "Colour, flowers or printing by hand: each designer explores a different part of making a pattern.",
+    "meetLead": "How does an idea become a fabric pattern? These four designers explore colour, simple shapes and printing by hand.",
     "eras": [
       "1920 · Colour theory and textiles",
       "1920s · Modern art and abstraction",
-      "Today · Passing on a craft",
+      "1923–1924 · Constructivism and textile printing",
       "1964 · Finnish textile design"
     ],
     "dates": [
       "1920",
       "1920s",
-      "Today",
+      "1923–1924",
       "1964"
     ],
     "accounts": [
       "In 1920, Julie Beaudeneau received an award for her “Cercle chromatique esthétique”. Her colour circle explores relationships between colours. This is fundamental to textile design: the effect of a fabric begins with the colours chosen for it.",
       "In the 1920s, Sonia Delaunay brought abstract art to printed fabrics and clothing. Colour and form enter everyday life. Their relationship is what matters: a colour changes its effect according to the colours beside it.",
-      "With Céline Lachkar, the journey reaches craft today. Having learned block printing in India, she teaches printing by hand. Each impression calls for a decision: where to place the motif, how much space to leave and what rhythm to create.",
+      "Liubov Popova painted abstract pictures and, from 1923, designed patterns for a textile printing factory in Moscow. Her fabrics used geometric shapes. She wanted art to be part of the things people used every day.",
       "In 1964, Maija Isola created Unikko for Marimekko. She turns a flower into a large, simplified shape. Within Finnish textile design, it becomes a striking everyday motif. The power of shape and colour matters more than botanical accuracy."
     ],
     "printTitle": "From an artist’s design to fabric.",
@@ -230,15 +230,15 @@ export const historyCopy = {
     "repeat": "Your first flower is on the fabric. What have artists made with fabric? Let’s explore their work.",
     "studioTitle": "Design your fabric.",
     "ideas": [
-      "Julie studied how colours work together. Give your flowers different colours and see which combination you like.",
-      "Sonia explored colours side by side. Change the fabric colour: how do your flowers look against the new background?",
-      "Every print helps shape the pattern. Move your flowers and try leaving different amounts of space between them.",
-      "Maija turned flowers into large, simple shapes. Choose a motif and change its size. Which version do you prefer?"
+      "Give one flower a different colour from the others. Which catches your eye first?",
+      "Change only the fabric colour. Compare your flowers against the pale, pink and yellow backgrounds.",
+      "Choose the triangle motif and add several. Line them up, then move every second triangle a little to the right.",
+      "Select a flower and make it bigger. How much of the background can you still see?"
     ],
     "conclusions": [
       "Your colours and shapes have become a fabric pattern. You have explored Julie’s question: how do colours work together?",
       "Your design now repeats across the fabric. Your choices of colour and shape could give character to a whole room or a piece of clothing.",
-      "Individual impressions have become a pattern. With Céline, you saw the design choices behind each printing gesture.",
+      "Fabric brings artistic design into everyday life: a pattern can change the look of clothing or a whole room.",
       "Your flowers have become a fabric pattern. Maija’s work shows the power of simple shapes."
     ],
     "chapters": [
@@ -270,9 +270,9 @@ export const historyCopy = {
         "Her work crosses the boundary between painting and everyday objects. Abstract art can be worn and move with the body. For your design, this raises a practical question: the motif and its background always work together."
       ],
       [
-        "Céline Lachkar represents an old craft that is still being taught today. The block printing she learned in India is a living technique, rather than a historical art movement.",
-        "She teaches people to print by hand in workshops, including work with historical blocks. Colour is applied, the block is pressed and then moved. A sequence of gestures builds the printed surface.",
-        "She shows how much work goes into printing a pattern by hand. Where you place a motif and how you repeat it are design decisions, just as much as its colour."
+        "Liubov Popova (1889–1924) was part of the Russian avant-garde. Artists around her were looking for new ways to bring art into everyday life.",
+        "From 1923, she designed patterns for the First State Textile Printing Works in Moscow. Her designs combined geometric shapes and colours.",
+        "Fabric became a place for abstract art. A pattern was not simply a smaller painting: it had to work across a whole surface. Here, see what happens when the same shapes are arranged in offset rows."
       ],
       [
         "Maija Isola works within post-war Finnish textile design. In 1964, she creates Unikko for Marimekko. The floral pattern becomes one of the company’s best-known designs.",
@@ -282,10 +282,10 @@ export const historyCopy = {
     ],
     "mediumNote": "Fabric has been a material for design for centuries. For Sonia Delaunay, it connects abstract painting with fashion and everyday life. A design also has to work when it repeats and the fabric moves. Weaving, embroidery and printing are different techniques.",
     "shortAccounts": [
-      "Julie explores how colours work together. Her colour circle helps people combine them, including when designing fabrics.",
-      "Sonia brings abstract art to fabric and clothing. She shows how colours change each other.",
-      "Céline teaches textile printing by hand. Each impression is a choice about spacing, placement and rhythm.",
-      "Maija turns a flower into a big, simple shape. Her Unikko pattern shows the power of colour and form."
+      "Julie Beaudeneau created a colour circle that won an award in 1920. It offers a way to compare colours and choose them for a design. Here, try changing the colour of just one flower.",
+      "Sonia Delaunay designed paintings, fabrics and clothing. She explored how a colour looks next to another colour. You can try this here without changing the flower’s colour.",
+      "Liubov Popova painted abstract pictures and, from 1923, designed patterns for a textile printing factory in Moscow. Her fabrics used geometric shapes. She wanted art to be part of the things people used every day.",
+      "Maija Isola designed the Unikko floral pattern for Marimekko in 1964. Her flowers are large, with simple outlines, rather than realistic. Here, see what happens when a flower takes up more of the fabric."
     ],
     "subject": "Art on fabric",
     "ending": "Your pattern is ready.",

@@ -1,4 +1,4 @@
-import {drawMotif,painterFor} from './motif-model.js?v=fresh-cloth-fit-screen';
+import {drawMotif,painterFor} from './motif-model.js?v=popova-and-patterns';
 import {Garden,INKS} from './garden.js?v=fresh-cloth-fit-screen';
 export const GROUNDS=['#f6f1e5','#efc5ca','#efd37f'];
 // A single seamless tile is shared by the flying cloth, experiments and downloads.

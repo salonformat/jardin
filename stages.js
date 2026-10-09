@@ -1,10 +1,10 @@
-import {atelierMarkup,bindAtelier,atelierCopy} from './atelier.js?v=fresh-cloth-fit-screen';
-import {applyIdea} from './motif-model.js?v=fresh-cloth-fit-screen';
+import {atelierMarkup,bindAtelier,atelierCopy} from './atelier.js?v=popova-and-patterns';
+import {applyIdea} from './motif-model.js?v=popova-and-patterns';
 import {Garden} from './garden.js?v=fresh-cloth-fit-screen';
 import {printCopy} from './content.js?v=fresh-cloth-fit-screen';
 import {copy} from './content.js?v=fresh-cloth-fit-screen';
-import {journey} from './journey.js?v=fresh-cloth-fit-screen';
-import {Textile,downloadPattern} from './textile.js?v=fresh-cloth-fit-screen';
+import {journey} from './journey.js?v=popova-and-patterns';
+import {Textile,downloadPattern} from './textile.js?v=popova-and-patterns';
 export function stageMarkup(scene,phase,locale,state,url,arrow){
  const t=journey[locale],a=atelierCopy[locale];if(scene==='atelier')return atelierMarkup(locale,url,arrow);const action=(label,href)=>`<a class="stage-action" href="${href}">${label}${arrow}</a>`;
  const choices=()=>{if(Array.isArray(state.motifs))return `<dl class="design-summary"><div><dt>${a.summary}</dt><dd>${state.motifs.length} ${a.count}</dd></div><div><dt>${a.ground}</dt><dd>${a.grounds[state.ground]}</dd></div></dl>`;const values=[printCopy[locale].inkNames[state.palette],t.people[1].choices[state.ground],t.people[2].choices[state.layout],t.people[3].choices[state.scale]];return `<dl class="design-summary">${t.labels.map((label,i)=>`<div><dt>${label}</dt><dd>${values[i]}</dd></div>`).join('')}</dl>`;};

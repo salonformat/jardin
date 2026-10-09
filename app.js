@@ -1,9 +1,9 @@
 import {lookingMarkup,bindLooking} from './looking.js?v=clear-learning-tools';
 import {printingMarkup,bindPrinting} from './printing.js?v=natural-language';
-import {story,storyMarkup,bindStory} from './story.js?v=clear-learning-tools';
-import {experience} from './experience.js?v=fresh-cloth-fit-screen';
-import {cleanMotifs} from './motif-model.js?v=fresh-cloth-fit-screen';
-import {journey} from './journey.js?v=fresh-cloth-fit-screen';
+import {story,storyMarkup,bindStory} from './story.js?v=popova-and-patterns';
+import {experience} from './experience.js?v=popova-and-patterns';
+import {cleanMotifs} from './motif-model.js?v=popova-and-patterns';
+import {journey} from './journey.js?v=popova-and-patterns';
 import {stageMarkup,bindStage} from './stages.js?v=fresh-cloth-fit-screen';
 import {Garden,INKS} from './garden.js?v=fresh-cloth-fit-screen';
 import {copy,journeyCopy,printCopy} from './content.js?v=fresh-cloth-fit-screen';
@@ -23,7 +23,7 @@ function header(t){return `<header class="masthead"><a class="brand" href="${url
 function footer(t){const labels=story[locale].chapters,step=scene==='fleur'?0:['regarder','choix','creatrices'].includes(scene)?1:scene==='atelier'?2:scene==='souvenir'?3:-1;return `<footer class="story-footer"><span>${t.credit}</span>${step<0?`<span>${journey[locale].duration}</span>`:`<ol aria-label="${journey[locale].duration}">${labels.map((label,i)=>`<li ${i===step?'aria-current="step"':''}>${label}</li>`).join('')}</ol>`}</footer>`;}
 function render(focus=false){clearTimeout(printTimer);garden?.destroy();if(scene==='creatrices'){if(!state.visitedCreators.includes(phase))state.visitedCreators.push(phase);if(state.activeCreator!==phase){state.beforeDesign={palette:state.palette,ground:state.ground,layout:state.layout,scale:state.scale};state.activeCreator=phase;state.lastCreator=phase;save();}}else state.activeCreator=null;const t=copy[locale];document.documentElement.lang=locale;document.body.classList.toggle('paused',state.paused);document.querySelector('.skip-link').textContent=t.skip;document.title='Un jardin à soi — Salon Format';
   if(scene==='jardin'){
-    app.innerHTML=`<div class="shell cover-shell"><canvas class="garden-cover" aria-hidden="true"></canvas>${header(t)}<main id="main" class="hero scene-enter"><div class="hero-copy"><h1 tabindex="-1"><span>${t.title[0]}</span><span>${t.title[1]}</span></h1><h2 class="hero-subject">${story[locale].subject}</h2><p class="hero-intro">${story[locale].intro}</p><p class="hero-artists">Sonia Delaunay · Maija Isola<br>Julie Beaudeneau · Céline Lachkar</p><a class="enter" id="start-print" href="${url('fleur')}">${story[locale].start}${arrow}</a><p class="print-intro">${journey[locale].duration}</p></div></main>${footer(t)}</div>`;
+    app.innerHTML=`<div class="shell cover-shell"><canvas class="garden-cover" aria-hidden="true"></canvas>${header(t)}<main id="main" class="hero scene-enter"><div class="hero-copy"><h1 tabindex="-1"><span>${t.title[0]}</span><span>${t.title[1]}</span></h1><h2 class="hero-subject">${story[locale].subject}</h2><p class="hero-intro">${story[locale].intro}</p><p class="hero-artists">Sonia Delaunay · Maija Isola<br>Julie Beaudeneau · ${journey[locale].people[2].name}</p><a class="enter" id="start-print" href="${url('fleur')}">${story[locale].start}${arrow}</a><p class="print-intro">${journey[locale].duration}</p></div></main>${footer(t)}</div>`;
   }else if(scene==='fleur'){
     app.innerHTML=`<div class="shell print-shell">${header(t)}${printingMarkup(locale,state,url,arrow)}${footer(t)}</div>`;
   }

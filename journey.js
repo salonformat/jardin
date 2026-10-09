@@ -55,18 +55,18 @@ export const journey = {
         "source": "https://www.mulhouse.fr/wp-content/uploads/2025/08/Ville-de-Mulhouse-DP-Expo-Pepites.pdf"
       },
       {
-        "name": "Céline Lachkar",
-        "title": "Un geste, puis un autre.",
-        "relation": "Le geste du blockprint",
-        "body": "Formée au blockprint en Inde, Céline Lachkar transmet cette pratique en atelier, notamment avec des planches anciennes. Positionner, appuyer, soulever, recommencer : derrière le motif, il y a des gestes.",
-        "task": "Alignez les fleurs, puis décalez une rangée sur deux.",
+        "name": "Lioubov Popova",
+        "title": "Que peut-on faire avec un triangle ?",
+        "relation": "1923–1924 · Constructivisme et impression textile",
+        "body": "Lioubov Popova peignait des tableaux abstraits. À partir de 1923, elle a aussi dessiné des motifs pour une fabrique d’impression textile à Moscou. Ses tissus reprennent des formes géométriques : pour elle, l’art devait aussi faire partie des objets du quotidien.",
+        "task": "Choisissez le triangle et ajoutez-en plusieurs. Alignez-les, puis décalez un triangle sur deux vers la droite.",
         "choices": [
           "Alignées",
           "Décalées"
         ],
-        "result": "Même fleur, autre rythme. La disposition fait elle aussi partie du dessin.",
+        "result": "En répétant un motif, on compose une surface. Sa couleur, sa taille et les espaces autour de lui changent son effet.",
         "kind": "layout",
-        "source": "https://www.musee-impression.com/wp-content/uploads/2024/06/PROG2sem_LIVRET2024_compressed.pdf"
+        "source": "https://www.metmuseum.org/art/collection/search/753996"
       },
       {
         "name": "Maija Isola",
@@ -183,7 +183,7 @@ export const journey = {
     "sourceNotes": [
       "La SIM documente le prix attribué à Julie Beaudeneau en 1920.",
       "Le dossier décrit les tissus de Sonia comme un ensemble de motifs géométriques.",
-      "Le programme propose aux visiteurs de pratiquer avec des planches anciennes.",
+      "À partir de 1923, elle a dessiné des motifs pour la Première Fabrique d’impression textile d’État, à Moscou. Ses dessins associent formes géométriques et couleurs.",
       "Marimekko raconte comment Isola dessinait ses motifs à leur taille réelle."
     ]
   },
@@ -243,18 +243,18 @@ export const journey = {
         "source": "https://www.mulhouse.fr/wp-content/uploads/2025/08/Ville-de-Mulhouse-DP-Expo-Pepites.pdf"
       },
       {
-        "name": "Céline Lachkar",
-        "title": "Ein Handgriff nach dem anderen.",
-        "relation": "Das Handwerk des Holzmodeldrucks",
-        "body": "Céline Lachkar hat den Holzmodeldruck in Indien gelernt und vermittelt ihn in Workshops, auch mit historischen Druckstöcken. Ansetzen, drücken, abheben, wiederholen: Hinter dem Muster steckt handwerkliches Können.",
-        "task": "Ordne die Blumen in Reihen an. Versetze dann jede zweite Reihe.",
+        "name": "Ljubow Popowa",
+        "title": "Was lässt sich aus einem Dreieck machen?",
+        "relation": "1923–1924 · Konstruktivismus und Stoffdruck",
+        "body": "Ljubow Popowa malte abstrakte Bilder und entwarf ab 1923 Muster für eine Moskauer Stoffdruckfabrik. Ihre Stoffe zeigen geometrische Formen. Kunst sollte für sie auch in Dingen stecken, die Menschen jeden Tag benutzen.",
+        "task": "Wähle als Motiv das Dreieck und füge mehrere hinzu. Ordne sie erst untereinander an. Verschiebe dann jedes zweite Dreieck ein Stück nach rechts.",
         "choices": [
           "In Reihen",
           "Versetzt"
         ],
-        "result": "Dieselbe Blume, ein anderer Rhythmus. Auch die Anordnung gehört zum Entwurf.",
+        "result": "Durch Wiederholung wird aus einem einzelnen Motiv ein Stoffmuster. Farbe, Größe und Abstand bestimmen, wie es wirkt.",
         "kind": "layout",
-        "source": "https://www.musee-impression.com/wp-content/uploads/2024/06/PROG2sem_LIVRET2024_compressed.pdf"
+        "source": "https://www.metmuseum.org/art/collection/search/753996"
       },
       {
         "name": "Maija Isola",
@@ -371,7 +371,7 @@ export const journey = {
     "sourceNotes": [
       "Die SIM dokumentiert die Auszeichnung für Julie Beaudeneau im Jahr 1920.",
       "Die Presseunterlagen beschreiben Sonias Stoffe als einen Bestand geometrischer Muster.",
-      "Im Programm arbeiten die Teilnehmenden mit historischen Druckstöcken.",
+      "Ab 1923 entwarf sie Muster für die Erste Staatliche Stoffdruckfabrik in Moskau. In ihren Entwürfen kombinierte sie geometrische Formen und Farben.",
       "Marimekko beschreibt, wie Isola ihre Muster in Originalgröße entwarf."
     ]
   },
@@ -431,18 +431,18 @@ export const journey = {
         "source": "https://www.mulhouse.fr/wp-content/uploads/2025/08/Ville-de-Mulhouse-DP-Expo-Pepites.pdf"
       },
       {
-        "name": "Céline Lachkar",
-        "title": "One gesture after another.",
-        "relation": "The craft of block printing",
-        "body": "Céline Lachkar learned block printing in India and shares the practice in workshops, including work with historic printing blocks. Position, press, lift, repeat: behind a pattern, there is a craft.",
-        "task": "Line up the flowers, then offset every other row.",
+        "name": "Liubov Popova",
+        "title": "What can you make with a triangle?",
+        "relation": "1923–1924 · Constructivism and textile printing",
+        "body": "Liubov Popova painted abstract pictures and, from 1923, designed patterns for a textile printing factory in Moscow. Her fabrics used geometric shapes. She wanted art to be part of the things people used every day.",
+        "task": "Choose the triangle motif and add several. Line them up, then move every second triangle a little to the right.",
         "choices": [
           "In rows",
           "Offset rows"
         ],
-        "result": "Same flower, a different rhythm. The arrangement is part of the design too.",
+        "result": "Repeating a motif creates a pattern across a surface. Colour, size and spacing change how it looks.",
         "kind": "layout",
-        "source": "https://www.musee-impression.com/wp-content/uploads/2024/06/PROG2sem_LIVRET2024_compressed.pdf"
+        "source": "https://www.metmuseum.org/art/collection/search/753996"
       },
       {
         "name": "Maija Isola",
@@ -559,7 +559,7 @@ export const journey = {
     "sourceNotes": [
       "The SIM documents Julie Beaudeneau’s award in 1920.",
       "The dossier describes Sonia’s textiles as a collection of geometric patterns.",
-      "The programme invites visitors to work with historic printing blocks.",
+      "From 1923, she designed patterns for the First State Textile Printing Works in Moscow. Her designs combined geometric shapes and colours.",
       "Marimekko describes how Isola designed her patterns at their actual size."
     ]
   }

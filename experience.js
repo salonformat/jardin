@@ -7,7 +7,7 @@ export const experience = {
     "topics": [
       "Julie Beaudeneau · associer les couleurs",
       "Sonia Delaunay · faire dialoguer motif et fond",
-      "Céline Lachkar · imprimer et répéter",
+      "Lioubov Popova · Des formes aux motifs",
       "Maija Isola · simplifier une fleur"
     ],
     "try": [
@@ -40,7 +40,7 @@ export const experience = {
     "topics": [
       "Julie Beaudeneau · Farben kombinieren",
       "Sonia Delaunay · Motiv und Hintergrund",
-      "Céline Lachkar · drucken und wiederholen",
+      "Ljubow Popowa · Muster aus Formen",
       "Maija Isola · eine Blume vereinfachen"
     ],
     "try": [
@@ -73,7 +73,7 @@ export const experience = {
     "topics": [
       "Julie Beaudeneau · combining colours",
       "Sonia Delaunay · motif and background",
-      "Céline Lachkar · printing and repeating",
+      "Liubov Popova · Patterns from shapes",
       "Maija Isola · simplifying a flower"
     ],
     "try": [
