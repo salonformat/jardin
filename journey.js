@@ -57,7 +57,7 @@ export const journey = {
       {
         "name": "Lioubov Popova",
         "title": "Que peut-on faire avec un triangle ?",
-        "relation": "1923–1924 · Constructivisme et impression textile",
+        "relation": "Créations textiles, 1923–1924 · Constructivisme",
         "body": "Lioubov Popova peignait des tableaux abstraits. À partir de 1923, elle a aussi dessiné des motifs pour une fabrique d’impression textile à Moscou. Ses tissus reprennent des formes géométriques : pour elle, l’art devait aussi faire partie des objets du quotidien.",
         "task": "Choisissez le triangle et ajoutez-en plusieurs. Alignez-les, puis décalez un triangle sur deux vers la droite.",
         "choices": [
@@ -245,7 +245,7 @@ export const journey = {
       {
         "name": "Ljubow Popowa",
         "title": "Was lässt sich aus einem Dreieck machen?",
-        "relation": "1923–1924 · Konstruktivismus und Stoffdruck",
+        "relation": "Textilentwürfe 1923–1924 · Konstruktivismus",
         "body": "Ljubow Popowa malte abstrakte Bilder und entwarf ab 1923 Muster für eine Moskauer Stoffdruckfabrik. Ihre Stoffe zeigen geometrische Formen. Kunst sollte für sie auch in Dingen stecken, die Menschen jeden Tag benutzen.",
         "task": "Wähle als Motiv das Dreieck und füge mehrere hinzu. Ordne sie erst untereinander an. Verschiebe dann jedes zweite Dreieck ein Stück nach rechts.",
         "choices": [
@@ -433,7 +433,7 @@ export const journey = {
       {
         "name": "Liubov Popova",
         "title": "What can you make with a triangle?",
-        "relation": "1923–1924 · Constructivism and textile printing",
+        "relation": "Textile designs, 1923–1924 · Constructivism",
         "body": "Liubov Popova painted abstract pictures and, from 1923, designed patterns for a textile printing factory in Moscow. Her fabrics used geometric shapes. She wanted art to be part of the things people used every day.",
         "task": "Choose the triangle motif and add several. Line them up, then move every second triangle a little to the right.",
         "choices": [

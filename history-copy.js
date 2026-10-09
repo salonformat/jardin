@@ -6,13 +6,13 @@ export const historyCopy = {
     "eras": [
       "1920 · Farblehre und Textil",
       "1920er · Moderne und Abstraktion",
-      "1923–1924 · Konstruktivismus und Stoffdruck",
+      "Textilentwürfe 1923–1924 · Konstruktivismus",
       "1964 · Finnisches Textildesign"
     ],
     "dates": [
       "1920",
       "1920er",
-      "1923–1924",
+      "Textilentwürfe 1923–1924",
       "1964"
     ],
     "accounts": [
@@ -114,13 +114,13 @@ export const historyCopy = {
     "eras": [
       "1920 · Couleur et textile",
       "Années 1920 · Art moderne et abstraction",
-      "1923–1924 · Constructivisme et impression textile",
+      "Créations textiles, 1923–1924 · Constructivisme",
       "1964 · Design textile finlandais"
     ],
     "dates": [
       "1920",
       "Années 1920",
-      "1923–1924",
+      "Créations textiles, 1923–1924",
       "1964"
     ],
     "accounts": [
@@ -222,13 +222,13 @@ export const historyCopy = {
     "eras": [
       "1920 · Colour theory and textiles",
       "1920s · Modern art and abstraction",
-      "1923–1924 · Constructivism and textile printing",
+      "Textile designs, 1923–1924 · Constructivism",
       "1964 · Finnish textile design"
     ],
     "dates": [
       "1920",
       "1920s",
-      "1923–1924",
+      "Textile designs, 1923–1924",
       "1964"
     ],
     "accounts": [
