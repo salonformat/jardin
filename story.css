@@ -105,3 +105,10 @@
 .creator-transition{font-size:16px;line-height:1.5;max-width:500px;margin:20px 0}@media(max-width:700px){.looking-copy .creator-transition{order:7;margin:0;font-size:15px}.looking-copy>.story-primary{order:8}}
 
 #studio-reset{display:block;width:100%;margin-top:12px;font-size:13px}@media(max-width:700px){.studio-tools{grid-template-areas:"kind ink ground" "size size undo" "add more more" "reset reset reset"}.studio-tools #studio-reset{grid-area:reset;margin:0;min-height:44px}.studio-tools:has(.studio-extra[open]) .studio-extra{grid-row:5}}
+
+/* Clear direct route from a first impression to the moving cloth. */
+.stamp-learn{display:block;width:fit-content;margin:8px auto 0;min-height:44px;padding:10px 6px;font-size:14px;text-underline-offset:4px}
+.stamp-complete .story-primary{max-width:100%;white-space:normal;line-height:1.3}
+.end-explore{display:block;padding:10px;min-height:44px}
+@media(max-width:700px){.stamp-complete #stamp-context{font-size:12px;margin-bottom:8px;line-height:1.35}.stamp-complete #stamp-status{margin-bottom:5px}.stamp-learn{font-size:12px;margin-top:2px}.stamp-complete .story-primary{padding:12px 14px;font-size:14px}}
+@media(min-width:701px){.hands-on-print{padding-top:10px;padding-bottom:12px}.print-introduction{margin-bottom:16px}.print-introduction p{margin-top:10px;line-height:1.4}.printing-table{grid-template-columns:minmax(0,min(430px,43svh)) 210px;gap:5vw}.stamp-complete{margin-top:12px;min-height:0}.stamp-complete>p{margin-bottom:7px}.printing-reading{margin-top:12px}}

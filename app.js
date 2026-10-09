@@ -1,6 +1,6 @@
 import {lookingMarkup,bindLooking} from './looking.js?v=four-designers';
-import {printingMarkup,bindPrinting} from './printing.js?v=short-print-feedback';
-import {story,storyMarkup,bindStory} from './story.js?v=blank-white-cloth';
+import {printingMarkup,bindPrinting} from './printing.js?v=direct-cloth';
+import {story,storyMarkup,bindStory} from './story.js?v=direct-cloth';
 import {experience} from './experience.js?v=popova-and-patterns';
 import {cleanMotifs} from './motif-model.js?v=popova-and-patterns';
 import {journey} from './journey.js?v=popova-and-patterns';
@@ -33,7 +33,7 @@ function render(focus=false){clearTimeout(printTimer);garden?.destroy();if(scene
 function bind(){
   document.querySelector('#start-print')?.addEventListener('click',e=>{
     if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;
-    state.motifs=[];state.visitedCreators=[];state.lastCreator=1;state.ground=0;state.bloom=false;state.repeated=false;state.edited=false;save();
+    state.motifs=[];state.appliedCreator=null;delete state.ideaUndo;state.visitedCreators=[];state.lastCreator=1;state.ground=0;state.bloom=false;state.repeated=false;state.edited=false;save();
   });
   document.querySelectorAll('[data-language]').forEach(b=>b.addEventListener('click',()=>{locale=b.dataset.language;history.replaceState(null,'',url(scene,locale,phase));render(false);}));
   document.querySelector('#motion').addEventListener('click',()=>{state.paused=!state.paused;document.body.classList.toggle('paused',state.paused);garden.set({paused:state.paused});const b=document.querySelector('#motion'),t=copy[locale];b.innerHTML=icon(state.paused?'play':'pause');b.setAttribute('aria-pressed',state.paused);b.setAttribute('aria-label',state.paused?t.play:t.pause);b.title=state.paused?t.play:t.pause;});
