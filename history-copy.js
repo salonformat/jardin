@@ -4,16 +4,16 @@ export const historyCopy = {
     "meet": "Kunst auf Stoff",
     "meetLead": "Ein Bild hängt an der Wand. Ein Stoff kann zu Kleidung werden und Menschen im Alltag begleiten. Diese vier Gestalterinnen zeigen, wie viel künstlerische Arbeit in Farben und Mustern steckt.",
     "eras": [
-      "1920 · Farblehre und Textil",
-      "1920er · Moderne und Abstraktion",
-      "Textilentwürfe 1923–1924 · Konstruktivismus",
-      "1964 · Finnisches Textildesign"
+      "Lebensdaten unbekannt",
+      "1885–1979",
+      "1889–1924",
+      "1927–2001"
     ],
     "dates": [
-      "1920",
-      "1920er",
-      "Textilentwürfe 1923–1924",
-      "1964"
+      "Lebensdaten unbekannt",
+      "1885–1979",
+      "1889–1924",
+      "1927–2001"
     ],
     "accounts": [
       "Julie Beaudeneau erhält 1920 einen Preis für ihren „Cercle chromatique esthétique“. Ihr Farbkreis untersucht, welche Farben zusammenwirken. Für den Textilentwurf ist das grundlegend: Die Wirkung eines Stoffes beginnt mit der Wahl seiner Farben.",
@@ -112,16 +112,16 @@ export const historyCopy = {
     "meet": "L’art sur le tissu",
     "meetLead": "Un tableau s’accroche au mur. Un tissu peut devenir un vêtement que l’on porte tous les jours. Ces quatre créatrices montrent le travail artistique derrière les couleurs et les motifs.",
     "eras": [
-      "1920 · Couleur et textile",
-      "Années 1920 · Art moderne et abstraction",
-      "Créations textiles, 1923–1924 · Constructivisme",
-      "1964 · Design textile finlandais"
+      "Dates de naissance et de décès inconnues",
+      "1885–1979",
+      "1889–1924",
+      "1927–2001"
     ],
     "dates": [
-      "1920",
-      "Années 1920",
-      "Créations textiles, 1923–1924",
-      "1964"
+      "Dates de naissance et de décès inconnues",
+      "1885–1979",
+      "1889–1924",
+      "1927–2001"
     ],
     "accounts": [
       "En 1920, Julie Beaudeneau reçoit un prix pour son « Cercle chromatique esthétique ». Elle y explore les relations entre les couleurs. Une question essentielle pour le dessin textile : l’effet d’un tissu commence par les couleurs que l’on choisit.",
@@ -220,16 +220,16 @@ export const historyCopy = {
     "meet": "Art on fabric",
     "meetLead": "A painting hangs on a wall. Fabric can become clothing that people wear every day. These four designers show how much artistic work goes into colours and patterns.",
     "eras": [
-      "1920 · Colour theory and textiles",
-      "1920s · Modern art and abstraction",
-      "Textile designs, 1923–1924 · Constructivism",
-      "1964 · Finnish textile design"
+      "Birth and death dates unknown",
+      "1885–1979",
+      "1889–1924",
+      "1927–2001"
     ],
     "dates": [
-      "1920",
-      "1920s",
-      "Textile designs, 1923–1924",
-      "1964"
+      "Birth and death dates unknown",
+      "1885–1979",
+      "1889–1924",
+      "1927–2001"
     ],
     "accounts": [
       "In 1920, Julie Beaudeneau received an award for her “Cercle chromatique esthétique”. Her colour circle explores relationships between colours. This is fundamental to textile design: the effect of a fabric begins with the colours chosen for it.",

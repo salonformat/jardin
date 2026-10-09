@@ -1,6 +1,6 @@
 import {demoMarkup,bindDemo} from './idea-demo.js?v=clear-rows';
-import {historyCopy} from './history-copy.js?v=labelled-dates';
-import {journey} from './journey.js?v=labelled-dates';
+import {historyCopy} from './history-copy.js?v=artist-lifespans';
+import {journey} from './journey.js?v=artist-lifespans';
 import {Textile,downloadPattern} from './textile.js?v=blank-white-cloth';
 import {studioMarkup,bindStudio} from './studio.js?v=direct-cloth';
 export const story={

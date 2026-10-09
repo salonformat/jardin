@@ -27,7 +27,7 @@ export const journey = {
       {
         "name": "Julie Beaudeneau",
         "title": "Trouver les couleurs qui vont ensemble.",
-        "relation": "Couleur et harmonie · 1920",
+        "relation": "Dates de naissance et de décès inconnues",
         "body": "En 1920, Julie Beaudeneau reçoit le prix Schaeffer pour son « Cercle chromatique esthétique ». Cet outil permet d’explorer les relations entre les couleurs. Avant même d’imprimer, il faut choisir celles que l’on fera dialoguer.",
         "task": "Essayez une autre couleur pour votre fleur.",
         "choices": [
@@ -42,7 +42,7 @@ export const journey = {
       {
         "name": "Sonia Delaunay",
         "title": "Une couleur n’est jamais seule.",
-        "relation": "Peinture, mode et textile",
+        "relation": "1885–1979",
         "body": "Sonia Delaunay fait passer la couleur de la peinture aux tissus et aux vêtements. Dans ses « Tissus simultanés », elle explore ce qui se produit lorsque deux couleurs se rencontrent.",
         "task": "Changez le fond. La couleur de la fleur reste identique.",
         "choices": [
@@ -57,7 +57,7 @@ export const journey = {
       {
         "name": "Lioubov Popova",
         "title": "Que peut-on faire avec un triangle ?",
-        "relation": "Créations textiles, 1923–1924 · Constructivisme",
+        "relation": "1889–1924",
         "body": "Lioubov Popova peignait des tableaux abstraits. À partir de 1923, elle a aussi dessiné des motifs pour une fabrique d’impression textile à Moscou. Ses tissus reprennent des formes géométriques : pour elle, l’art devait aussi faire partie des objets du quotidien.",
         "task": "Choisissez le triangle et ajoutez-en plusieurs. Alignez-les, puis décalez un triangle sur deux vers la droite.",
         "choices": [
@@ -71,7 +71,7 @@ export const journey = {
       {
         "name": "Maija Isola",
         "title": "Une fleur n’a pas besoin d’être un portrait.",
-        "relation": "Un regard depuis la Finlande · Unikko, 1964",
+        "relation": "1927–2001",
         "body": "En 1964, Maija Isola crée Unikko pour Marimekko. Elle ne cherche pas à reproduire une fleur à l’identique : elle en fait une forme libre et reconnaissable.",
         "task": "Gardez la même fleur. Changez sa taille. Que remarquez-vous ?",
         "choices": [
@@ -215,7 +215,7 @@ export const journey = {
       {
         "name": "Julie Beaudeneau",
         "title": "Farben zusammenbringen.",
-        "relation": "Farbe und Harmonie · 1920",
+        "relation": "Lebensdaten unbekannt",
         "body": "1920 erhält Julie Beaudeneau den Schaeffer-Preis für ihren „Cercle chromatique esthétique“. Mit diesem Farbkreis lassen sich Beziehungen zwischen Farben untersuchen. Schon vor dem Drucken beginnt die Gestaltung: Welche Farben passen für deine Idee zusammen?",
         "task": "Probiere eine andere Farbe für deine Blume.",
         "choices": [
@@ -230,7 +230,7 @@ export const journey = {
       {
         "name": "Sonia Delaunay",
         "title": "Eine Farbe kommt selten allein.",
-        "relation": "Malerei, Mode und Textil",
+        "relation": "1885–1979",
         "body": "Sonia Delaunay bringt Farbe aus der Malerei auf Stoffe und Kleidung. Mit ihren „Tissus simultanés“ erforscht sie, was passiert, wenn Farben nebeneinanderstehen.",
         "task": "Wechsle den Hintergrund. Die Farbe der Blume bleibt gleich.",
         "choices": [
@@ -245,7 +245,7 @@ export const journey = {
       {
         "name": "Ljubow Popowa",
         "title": "Was lässt sich aus einem Dreieck machen?",
-        "relation": "Textilentwürfe 1923–1924 · Konstruktivismus",
+        "relation": "1889–1924",
         "body": "Ljubow Popowa malte abstrakte Bilder und entwarf ab 1923 Muster für eine Moskauer Stoffdruckfabrik. Ihre Stoffe zeigen geometrische Formen. Kunst sollte für sie auch in Dingen stecken, die Menschen jeden Tag benutzen.",
         "task": "Wähle als Motiv das Dreieck und füge mehrere hinzu. Ordne sie erst untereinander an. Verschiebe dann jedes zweite Dreieck ein Stück nach rechts.",
         "choices": [
@@ -259,7 +259,7 @@ export const journey = {
       {
         "name": "Maija Isola",
         "title": "Eine Blume muss kein Abbild sein.",
-        "relation": "Ein Blick nach Finnland · Unikko, 1964",
+        "relation": "1927–2001",
         "body": "1964 entwirft Maija Isola Unikko für Marimekko. Sie bildet eine Blume nicht naturgetreu ab, sondern macht daraus eine freie, wiedererkennbare Form.",
         "task": "Lass die Blume so, wie sie ist. Verändere ihre Größe. Was fällt dir auf?",
         "choices": [
@@ -403,7 +403,7 @@ export const journey = {
       {
         "name": "Julie Beaudeneau",
         "title": "Bringing colours together.",
-        "relation": "Colour and harmony · 1920",
+        "relation": "Birth and death dates unknown",
         "body": "In 1920, Julie Beaudeneau receives the Schaeffer Prize for her “Cercle chromatique esthétique”. This colour circle is a tool for exploring relationships between colours. Design begins before printing: which colours will work together for your idea?",
         "task": "Try another colour for your flower.",
         "choices": [
@@ -418,7 +418,7 @@ export const journey = {
       {
         "name": "Sonia Delaunay",
         "title": "A colour is never alone.",
-        "relation": "Painting, fashion and textiles",
+        "relation": "1885–1979",
         "body": "Sonia Delaunay carries colour from painting into fabrics and clothing. In her “Tissus simultanés”, she explores what happens when colours meet.",
         "task": "Change the background. The flower keeps exactly the same colour.",
         "choices": [
@@ -433,7 +433,7 @@ export const journey = {
       {
         "name": "Liubov Popova",
         "title": "What can you make with a triangle?",
-        "relation": "Textile designs, 1923–1924 · Constructivism",
+        "relation": "1889–1924",
         "body": "Liubov Popova painted abstract pictures and, from 1923, designed patterns for a textile printing factory in Moscow. Her fabrics used geometric shapes. She wanted art to be part of the things people used every day.",
         "task": "Choose the triangle motif and add several. Line them up, then move every second triangle a little to the right.",
         "choices": [
@@ -447,7 +447,7 @@ export const journey = {
       {
         "name": "Maija Isola",
         "title": "A flower need not be a likeness.",
-        "relation": "A view from Finland · Unikko, 1964",
+        "relation": "1927–2001",
         "body": "In 1964, Maija Isola designs Unikko for Marimekko. Rather than copying a real flower, she gives it a bold, recognisable form.",
         "task": "Keep the same flower. Change its size. What do you notice?",
         "choices": [
