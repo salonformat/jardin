@@ -101,3 +101,5 @@
 }
 
 .fabric-context{max-width:700px;margin:20px auto 0}.fabric-context p{max-width:65ch}.fabric-context summary{font-size:15px}
+
+.creator-transition{font-size:16px;line-height:1.5;max-width:500px;margin:20px 0}@media(max-width:700px){.looking-copy .creator-transition{order:7;margin:0;font-size:15px}.looking-copy>.story-primary{order:8}}
