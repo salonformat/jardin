@@ -1,5 +1,5 @@
 import {lookingMarkup,bindLooking} from './looking.js?v=four-designers';
-import {printingMarkup,bindPrinting} from './printing.js?v=historic-floral-fabric';
+import {printingMarkup,bindPrinting} from './printing.js?v=short-print-feedback';
 import {story,storyMarkup,bindStory} from './story.js?v=blank-white-cloth';
 import {experience} from './experience.js?v=popova-and-patterns';
 import {cleanMotifs} from './motif-model.js?v=popova-and-patterns';
